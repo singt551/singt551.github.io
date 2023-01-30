@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(230, 179, 195);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+  font-family: 'Chakra Petch', sans-serif;
+  color: midnightblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+
+  
