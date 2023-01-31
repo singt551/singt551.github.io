@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color: rgb(222, 249, 249);
 }
 
 h1{
@@ -7,18 +7,37 @@ h1{
     font-size: 50px;
     color: indigo;
     font-family: 'Syncopate', sans-serif;
-    line-height: 2px;
+    line-height: 0;
+    position: relative;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(156, 180, 241);
+    font-family: 'Syncopate', sans-serif;
+    line-height: 0;
+    position: relative;
+
 }
 
 a{
-    font-size: 30px;
+    font-size: 25px;
     color: mediumseagreen;
 }
 
-h3{
+h4{
     text-align: center;
     font-size: 40px;
     color:darkcyan;
     font-family: 'Syncopate', sans-serif;
     line-height: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted rgb(242, 255, 142);
+    height: 1px;
+    width: 80%;
 }
