@@ -1,0 +1,17 @@
+body{
+    background-color:bisque;
+    font-family: 'Bodoni Moda', serif;
+    margin-left: 40px;
+}
+
+h1{
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    font-size: 70px;
+}
+
+ol{
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    font-size: 50px;
+}
