@@ -1,30 +1,67 @@
 body{
-    background-color:aliceblue
+    color: aliceblue;
+}
+
+h1{
+    color: blue;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 3000;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    display: block;
+    position:fixed;
+}
+
+P{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    font-weight: 3000;
+    line-height: 5px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: .3fr 2fr;
+    grid-template-rows: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
     grid-template-areas: 
-    "content3 content4 content5 content6" 
-    "content7 content8 content9 content10"
-    "content11 content12 content13 content14"
-    "content15 content16 content17 content18"
-    "content19 content20 content21 content";
+    "content1 content2" 
+    "content1 content3"
+    "content1 content4"
+    "content1 content5"
+    "content1 content6"
+    "content1 content7"
+    "content1 content8"
+    "content1 content9"
+    "content1 content10"
+    "content1 content11"
+    "content1 content12"
+    "content1 content13"
+    "content1 content14"
+    "content1 content15"
+    "content1 content16"
+    "content1 content17"
+    "content1 content18"
+    "content1 content19"
+    "content1 content20"
+    "content1 content21";
   }
 
-h1{
-    color: blue;
-    font-size: 22px;
-    text-align: center;
+#content1{
+    grid-area: content1;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
     font-family: 'Bodoni Moda', serif;
-    font-weight: 3000;
+    text-align: center;
 }
 
-h3{
+#content2{
+    grid-area: content2;
     color: rgb(0, 0, 0);
-    font-size: 22px;
+    font-size: 50px;
     font-family: 'Bodoni Moda', serif;
     text-align: center;
 }
@@ -181,17 +218,3 @@ h3{
     text-align: center;
 }
 
-h4{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-family: 'Bodoni Moda', serif;
-    line-height: 5px;
-    font-weight: 3000;
-}
-
-P{
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bodoni Moda', serif;
-    line-height: 5px;
-}
