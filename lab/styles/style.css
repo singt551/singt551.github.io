@@ -1,7 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Righteous&display=swap');
+
 body{
     background-color:rgb(106, 248, 250);
+    padding: 1em;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+    color: rgb(32, 149, 104);
 }
+
+h4{
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color: rgb(12, 48, 34);
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    color: rgb(12, 48, 34);
+}
+
+#blue{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(21, 16, 163);
+}
+
+#lightblue{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(83, 80, 175);
+}
+
+#green{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(44, 166, 46);
+}
+
+#orange{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(220, 185, 31);
+}
+
+#red{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(213, 58, 58);
+}
+
+.rating{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(47, 106, 64);
+}
+
+summary{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(18, 11, 49);
+}
+
+summary[open]{
+    color: rgb(57, 51, 86);
+}
+
+
+
