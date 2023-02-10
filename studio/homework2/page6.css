@@ -1,25 +1,68 @@
 body{
-    background-color:aliceblue
+    color: aliceblue;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
-    grid-template-areas: 
-    "content3 content4 content5 content6" 
-    "content7 content8 content9 content10"
-    "content11 content12 content13 content14"
-    "content15 content16 content17 content18"
-    "content19 content20 content21 content";
-  }
 
 h1{
     color: blue;
-    font-size: 22px;
+    font-size: 80px;
     text-align: center;
     font-family: 'Bodoni Moda', serif;
+    font-weight: 3000;
 }
+
+h3{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 3000;
+    line-height: 5px;
+}
+
+P{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    font-weight: 3000;
+    line-height: 5px;
+    font-style: italic;
+}
+
+h4{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 3000;
+}
+
+h6{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    line-height: 2px;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
+    grid-template-areas: 
+    "content3 content13"
+    "content4 content14"
+    "content5 content15"
+    "content6 content16"
+    "content7 content17"
+    "content8 content18"
+    "content9 content19"
+    "content10 content20"
+    "content11 content21"
+    "content12 content";
+  }
 
 #content3{
     grid-area: content3;
@@ -173,17 +216,3 @@ h1{
     text-align: center;
 }
 
-h4{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-family: 'Bodoni Moda', serif;
-    line-height: 5px;
-}
-
-P{
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bodoni Moda', serif;
-    line-height: 5px;
-    text-align: center;
-}

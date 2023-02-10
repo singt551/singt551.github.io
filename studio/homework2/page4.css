@@ -1,12 +1,11 @@
 body{
     background-color: aliceblue;
-    margin: 20px;
 }
 
 h1{
     color: blue;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     font-family: 'Bodoni Moda', serif;
     line-height: 5px;
 }
@@ -16,12 +15,11 @@ h3{
     font-size: 50px;
     font-family: 'Bodoni Moda', serif;
     line-height: 5px;
-    text-align: right;
 }
 
 P{
     font-size: 50px;
-    color: blue;
+    color: rgb(0, 0, 0);
     font-family: 'Bodoni Moda', serif;
     line-height: 5px;
 }

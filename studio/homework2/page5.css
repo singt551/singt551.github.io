@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    margin: 40px;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    line-height: 5px;
+    font-style: italic;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Bodoni Moda', serif;
+    line-height: 5px;
+    text-align: left;
+    font-style: bold;
+}
+
+h5{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bodoni Moda', serif;
+    line-height: 5px;
+    text-align: right;
+    font-style: italic;
+  
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Bodoni Moda', serif;
+    line-height: 0px;
+    text-align: right;
+    font-style: bold;
+}
+
+h6{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bodoni Moda', serif;
+    line-height: 0px;
+    text-align: left;
+    font-style: italic;
+}
