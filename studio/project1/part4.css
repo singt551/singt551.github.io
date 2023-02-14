@@ -8,18 +8,8 @@
 }
 
 .polygon {
-    width: 200px;
-    height: 200px;
-    float:left;
-    background-color: black;
-    shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-    margin: 15px;
-  } 
-
-  .polygon2 {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     float:right;
     background-color: black;
     shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
@@ -30,7 +20,7 @@
 .hexagon {
   width: 50px;
   height: 50px;
-  background-color:  #FDFD96;
+  background-color: #c3eefa;
   shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
   margin: 15px;
@@ -38,6 +28,6 @@
 }
 
 p{
-    color:  #FDFD96;
-    font-size: 42.5px;
+    color:  #c3eefa;
+    font-size: 32px;
 }
