@@ -59,6 +59,60 @@ body{
     transform: scale(0.8);
 }
 
+.container .hexagonArea .polygon{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 0 10px;
+    clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%);
+    background: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container .hexagonArea .polygon h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.container .hexagonArea .polygon:hover{
+    background: #FF6961;
+    transform: scale(0.8);
+}
+
+.container .hexagonArea .polyhexagon{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 0 10px;
+    clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%);
+    background: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container .hexagonArea .polyhexagon h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.container .hexagonArea .polyhexagon:hover{
+    background: #FDFD96;
+    transform: scale(0.8);
+}
+
 a{
     text-decoration: none;
 }
