@@ -8,19 +8,19 @@
 }
 
 .polygon {
-    width: 200px;
-    height: 200px;
-    float:left;
+    width: 300px;
+    height: 300px;
+    float:right;
     background-color: black;
     shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
     clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
     margin: 15px;
-  } 
+} 
 
 .hexagon {
   width: 50px;
   height: 50px;
-  background-color:  #FF6961;
+  background-color:  #FDFD96;
   shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
   margin: 15px;
@@ -28,6 +28,6 @@
 }
 
 p{
-    color:  #FF6961;
-    font-size: 41px;
+    color:  #FDFD96;
+    font-size: 37px;
 }
