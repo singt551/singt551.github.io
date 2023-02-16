@@ -31,3 +31,16 @@ p{
     color:  #c3eefa;
     font-size: 34.5px;
 }
+
+@media screen and (max-width:800px){
+    .polygon{
+      width: 100px;
+      height: 100px;
+    }
+  
+    .hexagon{
+      width: 20px;
+      height: 20px;
+    }
+  }
+  

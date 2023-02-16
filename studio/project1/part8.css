@@ -43,3 +43,20 @@ p{
     color:  #FF6961;
     font-size: 26.5px;
 }
+
+@media screen and (max-width:800px){
+  .polygon{
+    width: 400px;
+    height: 400px;
+  }
+
+  .polyhexagon{
+    width: 100px;
+    height: 100px;
+  }
+
+  .hexagon{
+    width: 20px;
+    height: 20px;
+  }
+}

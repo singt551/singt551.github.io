@@ -32,5 +32,17 @@ p{
     font-size: 28px;
 }
 
+@media screen and (max-width:800px){
+  .polygon{
+    width: 200px;
+    height: 200px;
+  }
+
+  .hexagon{
+    width: 20px;
+    height: 20px;
+  }
+}
+
 
 

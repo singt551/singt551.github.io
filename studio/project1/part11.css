@@ -32,3 +32,15 @@ p{
     color:  #FF6961;
     font-size: 47px;
 }
+
+@media screen and (max-width:800px){
+  .polygon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .hexagon{
+    width: 20px;
+    height: 20px;
+  }
+}
