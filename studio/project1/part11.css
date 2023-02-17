@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 20px;
     background-color: black;
     font-family: bigmoore, serif;
     font-style: normal;
@@ -30,7 +30,7 @@
 
 p{
     color:  #FF6961;
-    font-size: 47px;
+    font-size: 44px;
 }
 
 @media screen and (max-width:600px){
@@ -40,6 +40,6 @@ p{
   }
 
   p{
-    font-size: 24px;
+    font-size: 22px;
   }
 }
