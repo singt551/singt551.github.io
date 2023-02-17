@@ -32,10 +32,14 @@ p{
     font-size: 36px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
   .polygon{
     width: 150px;
     height: 150px;
+  }
+
+  p{
+    font-size: 24px;
   }
 }
 
