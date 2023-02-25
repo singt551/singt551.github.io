@@ -1,0 +1,152 @@
+@import url('https://use.typekit.net/ssy4dxa.css');
+body{
+    background-color: white;
+    padding: 5vw;
+}
+
+header{
+    margin-bottom: 10vh;
+}
+
+header{
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 11vh;
+}
+
+figure.one{
+    height: 80vh;
+    width: 60vh;
+    background: rgb(3, 3, 30);
+    margin: 0 auto;
+}
+
+.red{
+    color:darkred;
+    font-size: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 9vw;
+    padding-top: 3vw;
+}
+
+.element{ 
+    font-size: 13vw; 
+    position: absolute; 
+    text-align: center;
+    margin-top: 19vw;
+    letter-spacing: -10px;
+  }
+
+  #element-1{ 
+    color:rgb(82, 248, 187); 
+    z-index: 1;
+    margin-left:1vw;
+    font-family: Helvetica;
+    justify-content: center;
+    text-align: center; 
+  }
+  
+  #element-2{ 
+    color:rgb(208, 230, 180);
+    margin-left: 10vw;
+    z-index: 2; 
+    font-family: Helvetica;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+.bottom{
+    color:darkred;
+    font-size: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 500; 
+    text-align: justify;
+    margin-left: 9vw;
+}
+
+figcaption#tombstone1{
+    margin-top: 2em;
+    text-align: center;
+}
+
+figure.two{
+    height: 77vh;
+    width: 57vh;
+    background: black;
+    border:10px solid pink;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 6.5vw;
+    color: rgb(248, 228, 228);
+    margin-top: 11vw;
+    font-family: "gill-sans-nova-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -4px;
+    text-align: center;
+}
+
+.sentence{
+    font-size: .6vw;
+    color: rgb(248, 243, 243);
+    text-align: center;
+    font-family: "gill-sans-nova-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.end{
+    font-size: .6vw;
+    color: rgb(248, 243, 243);
+    text-align: center;
+    font-family: "gill-sans-nova-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1vw;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 0;
+    border-bottom: 100px solid rgb(183, 112, 124);
+    margin: 0 auto;
+    padding-top: 14vw;
+  }
+
+figcaption#tombstone2{
+    margin-top: 3em;
+    text-align: center;
+}
+
+figure.three{
+    height: 80vh;
+    width: 60vh;
+    background: yellow;
+    margin: 0 auto;
+}
+
+figcaption#tombstone3{
+    margin-top: 40em;
+    text-align: center;
+}
+
+figcaption a{
+    color: red;
+}
