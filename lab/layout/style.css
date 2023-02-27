@@ -1,7 +1,7 @@
 @import url('https://use.typekit.net/ssy4dxa.css');
 body{
     background-color: white;
-    padding: 5vw;
+    padding: 5vh;
 }
 
 header{
@@ -23,34 +23,46 @@ main{
 figure.one{
     height: 80vh;
     width: 60vh;
-    background: rgb(3, 3, 30);
+    background: rgb(2, 2, 24);
     margin: 0 auto;
 }
 
 .red{
     color:darkred;
-    font-size: 1vw;
+    font-size: 1.5vh;
     justify-content: center;
     text-align: center;
     font-family: Helvetica;
     font-weight: 500;
     text-align: justify;
-    margin-left: 9vw;
-    padding-top: 3vw;
+    margin-left: 17vh;
+    padding-top: 3vh;
+}
+
+.next{
+  color:darkred;
+  font-size: 1.5vh;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 500;
+  text-align: justify;
+  margin-left: 17vh;
+  padding-top: .5vh;
 }
 
 .element{ 
-    font-size: 13vw; 
+    font-size: 24vh; 
     position: absolute; 
     text-align: center;
-    margin-top: 19vw;
+    margin-top: 35vh;
     letter-spacing: -10px;
   }
 
   #element-1{ 
     color:rgb(82, 248, 187); 
     z-index: 1;
-    margin-left:1vw;
+    margin-left:1vh;
     font-family: Helvetica;
     justify-content: center;
     text-align: center; 
@@ -58,7 +70,7 @@ figure.one{
   
   #element-2{ 
     color:rgb(208, 230, 180);
-    margin-left: 10vw;
+    margin-left: 18vh;
     z-index: 2; 
     font-family: Helvetica;
     justify-content: center;
@@ -67,32 +79,72 @@ figure.one{
   
 .bottom{
     color:darkred;
-    font-size: 1vw;
+    font-size: 1.5vh;
     justify-content: center;
     text-align: center;
     font-family: Helvetica;
     font-weight: 500; 
     text-align: justify;
-    margin-left: 9vw;
+    margin-left: 17vh;
+    padding-top: 18vh;
+}
+
+.one{
+  color:darkred;
+  font-size: 1.5vh;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 500; 
+  text-align: justify;
+  margin-left: 17vh;
+  padding-top: 3vh;
+}
+
+.two{
+  color:darkred;
+  font-size: 1.5vh;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 500; 
+  text-align: justify;
+  margin-left: 17vh;
+  padding-top: 1vh;
+}
+
+.three{
+  color:darkred;
+  font-size: 1.5vh;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 500; 
+  text-align: justify;
+  margin-left: 17vh;
+  padding-top: 1vh;
 }
 
 figcaption#tombstone1{
-    margin-top: 2em;
+    padding-top: 4vh;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2vh;
 }
 
 figure.two{
     height: 77vh;
     width: 57vh;
     background: black;
-    border:10px solid pink;
+    border: 2vh solid pink;
     margin: 0 auto;
 }
 
 h2{
-    font-size: 6.5vw;
+    font-size: 12vh;
     color: rgb(248, 228, 228);
-    margin-top: 11vw;
+    margin-top: 21vh;
     font-family: "gill-sans-nova-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -101,7 +153,7 @@ h2{
 }
 
 .sentence{
-    font-size: .6vw;
+    font-size: 1vh;
     color: rgb(248, 243, 243);
     text-align: center;
     font-family: "gill-sans-nova-condensed", sans-serif;
@@ -110,13 +162,13 @@ h2{
 }
 
 .end{
-    font-size: .6vw;
+    font-size: 1vh;
     color: rgb(248, 243, 243);
     text-align: center;
     font-family: "gill-sans-nova-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 1vw;
+    margin-top: 1vh;
 }
 
 .triangle {
@@ -126,12 +178,15 @@ h2{
     border-top: 0;
     border-bottom: 100px solid rgb(183, 112, 124);
     margin: 0 auto;
-    padding-top: 14vw;
+    padding-top: 24vh;
   }
 
 figcaption#tombstone2{
-    margin-top: 3em;
+    margin-top: 7vh;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2vh;
 }
 
 figure.three{
@@ -142,18 +197,19 @@ figure.three{
     display: grid; 
     grid-template-columns: repeat(12, 1fr); 
     grid-template-rows: repeat(8, 1fr); 
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
-    border-radius: 5px;
+    grid-column-gap: 0vh;
+    grid-row-gap: 0vh; 
+    border-radius: 5vh;
 }
 
 figure.three h4{
   font-family: cooper-black-std, serif;
   font-weight: 400;
   position: absolute;
-  margin-left: 18vw;
+  margin-left: 33vh;
   margin-top: 3vh;
-  font-size: 12px;
+  font-size: 1.5vh;
+  color: black;
 }
 
     /* row 1 */
@@ -374,21 +430,16 @@ figure.three h4{
     } 
     
     .div57 { grid-area: 8 / 7 / 9 / 8;} 
-    
-/*     
-    .line1{
-      height: 40px;
-      width: 120px;
-      background-color: #E1AD46;
-      border-radius: 100%;
-      rotate: -15deg;
-    } */
 
 figcaption#tombstone3{
-    margin-top: -5em;
+    margin-top: -9vh;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2vh;
 }
 
 figcaption a{
     color: red;
+    text-decoration: none;
 }
