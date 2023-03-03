@@ -2,124 +2,145 @@
 
 :root{
     --background-color: white;
-    --padding: 5vh;
+    --spacing: 5vh;
+    --border: 8vh;
+    --font: "gill-sans-nova-condensed", sans-serif;
+    --margin: 0 auto;
+    --weight: 700;
+    --center: center;
 }
 
 body{
     background-color: var(--background-color);
-    padding: var(--padding);
+    padding: var(--spacing);
 }
 
 
 header{
-    text-align: center;
-    font-size: 8vh;
+    text-align: var(--center);
+    font-size: var(--border);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 5vh;
+    margin-bottom: var(--spacing);
 }
 
-/* main{
+main{
     display: flex;
     flex-direction: column;
-    row-gap: 11vh;
-} */
+    row-gap: var(--spacing);
+}
 
 figure.two{
-    height: 65vh;
-    width: 45vh;
+    height: calc(13 * var(--spacing));
+    width: calc(9 * var(--spacing));
     background: black;
-    border: 2vh solid pink;
-    margin: 0 auto;
+    border: calc(var(--border)/4) solid pink;
+    margin: var(--margin);
 }
 
 h2{
     font-size: 9.5vh;
     color: rgb(248, 228, 228);
     margin-top: 17vh;
-    font-family: "gill-sans-nova-condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: var(--font);
+    font-weight: var(--weight);
     letter-spacing: -.5vh;
-    text-align: center;
+    text-align: var(--center);
 }
 
 .sentence{
     font-size: .8vh;
     color: rgb(248, 243, 243);
-    text-align: center;
-    font-family: "gill-sans-nova-condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    text-align: var(--center);
+    font-family: var(--font);
+    font-weight:  var(--weight);
 }
 
 .end{
-    font-size: 1vh;
+    font-size: .8vh;
     color: rgb(248, 243, 243);
-    text-align: center;
-    font-family: "gill-sans-nova-condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    text-align: var(--center);
+    font-family: var(--font);
+    font-weight: var(--weight);
     margin-top: 1vh;
 }
 
 .triangle {
     width: 0;
     height: 0;
-    border: 50px solid transparent;
+    border: var(--border) solid transparent;
     border-top: 0;
     border-bottom: 13vh solid rgb(183, 112, 124);
-    margin: 0 auto;
+    margin: var(--margin);
     padding-top: 22vh;
   }
 
 figcaption#tombstone2{
-    margin-top: 5vh;
-    text-align: center;
+    margin-top: var(--spacing);
+    text-align: var(--center);
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    font-size: 2vh;
+    font-size: calc(var(--border)/4);
 }
 
 @media screen and (min-width: 600px) {
+    :root{
+        --background-color: rgb(218, 249, 249);
+        --spacing: 6vh;
+        --border: 9vh;
+    }
+
     figure.two{
         border: 2vh solid rgb(166, 185, 226);
     }
     h2{
-        font-size: 9.5vh;
+        font-size: 11vh;
         color: rgb(194, 208, 239);
+        margin-top: 24vh;
     }
 
     .sentence{
         color: rgb(157, 185, 243);
+        font-size: 1.2vh;
     }
 
     .end{
         color: rgb(157, 185, 243);
+        font-size: 1.2vh;
     }
 
     .triangle{
-        border-bottom: 13vh solid rgb(51, 76, 132);
+        border-bottom: 15vh solid rgb(51, 76, 132);
+        padding-top: 22.5vh;
 }
 }
 
 @media screen and (min-width: 1200px) {
+    :root{
+        --background-color: rgb(204, 241, 215);
+        --spacing: 7vh;
+        --border: 10vh;
+    }
     figure.two{
         border: 2vh solid rgb(124, 243, 148);
     }
     h2{
-        font-size: 9.5vh;
+        font-size: 13vh;
         color: rgb(127, 246, 154);
+        margin-top: 27vh;
     }
 
     .sentence{
         color: rgb(81, 214, 92);
+        font-size: 1.8vh;
     }
 
     .end{
         color: rgb(81, 214, 92);
+        font-size: 1.8vh;
     }
 
     .triangle{
-        border-bottom: 13vh solid rgb(55, 119, 61);
+        border-bottom: 17vh solid rgb(55, 119, 61);
+        padding-top: 25vh;
 }
 }
