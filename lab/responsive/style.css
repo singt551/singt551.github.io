@@ -1,37 +1,41 @@
 @import url('https://use.typekit.net/ssy4dxa.css');
-body{
-    background-color: white;
-    padding: 5vh;
+
+:root{
+    --background-color: white;
+    --padding: 5vh;
 }
 
-header{
-    margin-bottom: 10vh;
+body{
+    background-color: var(--background-color);
+    padding: var(--padding);
 }
+
 
 header{
     text-align: center;
     font-size: 8vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5vh;
 }
 
-main{
+/* main{
     display: flex;
     flex-direction: column;
     row-gap: 11vh;
-}
+} */
 
 figure.two{
-    height: 77vh;
-    width: 57vh;
+    height: 65vh;
+    width: 45vh;
     background: black;
     border: 2vh solid pink;
     margin: 0 auto;
 }
 
 h2{
-    font-size: 11.8vh;
+    font-size: 9.5vh;
     color: rgb(248, 228, 228);
-    margin-top: 21vh;
+    margin-top: 17vh;
     font-family: "gill-sans-nova-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -40,7 +44,7 @@ h2{
 }
 
 .sentence{
-    font-size: 1vh;
+    font-size: .8vh;
     color: rgb(248, 243, 243);
     text-align: center;
     font-family: "gill-sans-nova-condensed", sans-serif;
@@ -65,21 +69,57 @@ h2{
     border-top: 0;
     border-bottom: 13vh solid rgb(183, 112, 124);
     margin: 0 auto;
-    padding-top: 24vh;
+    padding-top: 22vh;
   }
 
 figcaption#tombstone2{
-    margin-top: 7vh;
+    margin-top: 5vh;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 2vh;
 }
 
-@media screen and (max-width: 600) {
-    
+@media screen and (min-width: 600px) {
+    figure.two{
+        border: 2vh solid rgb(166, 185, 226);
+    }
+    h2{
+        font-size: 9.5vh;
+        color: rgb(194, 208, 239);
+    }
+
+    .sentence{
+        color: rgb(157, 185, 243);
+    }
+
+    .end{
+        color: rgb(157, 185, 243);
+    }
+
+    .triangle{
+        border-bottom: 13vh solid rgb(51, 76, 132);
+}
 }
 
-@media screen and (max-width: 1200) {
-    
+@media screen and (min-width: 1200px) {
+    figure.two{
+        border: 2vh solid rgb(124, 243, 148);
+    }
+    h2{
+        font-size: 9.5vh;
+        color: rgb(127, 246, 154);
+    }
+
+    .sentence{
+        color: rgb(81, 214, 92);
+    }
+
+    .end{
+        color: rgb(81, 214, 92);
+    }
+
+    .triangle{
+        border-bottom: 13vh solid rgb(55, 119, 61);
+}
 }
