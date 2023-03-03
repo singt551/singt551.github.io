@@ -1,0 +1,118 @@
+
+body {
+    background-color:  #FF7272;
+    font-family:  'Poppins', sans-serif;
+    padding: 50px;
+    font-size: 16px;
+
+  }
+
+h1{
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+}
+
+  h2{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h3{
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .container{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  img{
+    max-width: 100%;
+    display: inline-block;
+  }
+
+
+/* If the browser window is smaller than 650px, the background color will change to black and the text to white: */
+@media screen and (max-width: 650px) {
+    body {
+      background-color: black;
+      color:  white;
+    }
+  }
+
+
+/* If the browser window is shorter than 650px, the background will turn orange */
+
+@media screen and (max-height: 650px) {
+    body {
+      background-color: red;
+    }
+}
+
+/* Tablet breakpoint */
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 20px;
+      background-color: pink;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+  }
+  
+  /* Desktop breakpoint */
+  @media screen and (min-width: 992px) {
+    body {
+      font-size: 30px;
+      background-color: yellow;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+  }
+  
+  /* Wide screen breakpoint */
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 40px;
+      background-color: teal;
+    }
+
+    h1{
+        font-size: 90px;
+    }
+
+    h2{
+        font-size: 70px;
+    }
+  }
+
+@media screen and (max-width: 480px){
+  body{
+    background-color: lime;
+    color: black;
+  }
+
+  h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 10px;
+}
+}
+
