@@ -2,6 +2,7 @@ body{
     background: black;
     height: 100vh;
     width: 100vh;
+    margin-top: -5vh;
 }
 
 /* .sphere{
@@ -32,37 +33,90 @@ body{
     }
 } */
 
-#hexagon{
+#hexagon-1{
     width: 100vh;
-    margin-left: 20vh;
+    margin-left: -30vh;
+    margin-top: 10vh;
     animation: hexagonSpin 5s infinite;
+    position: absolute;
+    margin-bottom: -30vh;
 }
 
-#oval{
-    width: 100vh;
-    margin-left: 20vh;
-    animation: hexagonSpin 5s infinite;
+#hexagon-1:hover{
+    animation-play-state: paused;
+    cursor: pointer;
 }
 
-#long{
-    width: 100vh;
+#oval-1{
+    width: 70vh;
+    margin-left: 10vh;
+    margin-top: 50vh;
     animation: hexagonSpin 5s infinite;
+    position: block;
 }
 
-#wide{
-    width: 100vh;
+#long-1{
+    width: 80vh;
+    margin-left: 30vh;
+    margin-top: 30vh;
     animation: hexagonSpin 5s infinite;
+    position: absolute;
 }
 
-#star{
-    width: 100vh;
+#wide-1{
+    width: 90vh;
+    margin-left: -5vh;
+    margin-top: 10vh;
     animation: hexagonSpin 5s infinite;
+    position: absolute;
 }
 
-p{
-    justify-content: center;
-    display: flex;
+#star-1{
+    width: 80vh;
+    margin-left: -50vh;
+    margin-top: 5vh;
+    animation: hexagonSpin 5s infinite;
+    position: absolute;
 }
+
+#hexagon-2{
+    width: 80vh;
+    margin-left: 45vh;
+    margin-top: -50vh;
+    animation: hexagonSpin 5s infinite;
+    position: absolute;
+    margin-bottom: -30vh;
+}
+
+#oval-2{
+    width: 70vh;
+    margin-left: 120vh;
+    margin-top: -100vh;
+    animation: hexagonSpin 5s infinite;
+    position: absolute;
+}
+
+#long-2{
+    width: 80vh;
+    margin-left: 120vh;
+    margin-top: -60vh;
+    animation: hexagonSpin 5s infinite;
+    position: absolute;
+}
+
+#star-2{
+    width: 100vh;
+    margin-left: 70vh;
+    margin-top: -60vh;
+    animation: hexagonSpin 5s infinite;
+    position: absolute;
+}
+
+#star-2:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
 
 .cls-1{
     animation: yellow 2s infinite;
@@ -114,18 +168,22 @@ p{
 @keyframes yellow{
     0%{
         fill: default;
+        filter: blur(0);
     }
     100%{
         fill: yellow;
+        filter: blur(90px);
     }
 }
 
 @keyframes blue{
     0%{
         fill: default;
+        filter: blur(0);
     }
     100%{
         fill: blue;
+        filter: blur(90px);
     }
 }
 
@@ -141,9 +199,11 @@ p{
 @keyframes red{
     0%{
         fill: default;
+        filter: blur(0);
     }
     100%{
         fill: red;
+        filter: blur(90px);
     }
 }
 
