@@ -1,119 +1,487 @@
 [
 	{
-		"title": "Fear and Desire",
-		"year": 1952,
-		"alsoWriter" : false,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/f/f7/Fear_and_Desire_Poster.jpg",
-		"runTime": "61 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0045758",
-		"imdbRating": 5.3
+		"image": "50.jpg",
+		"date": "June 26, 2022",
+		"time": "2:14 PM",
+		"location": "Budapest, Hungary",
+		"medium": "Painting",
+		"proximity": "Close"
 	},
+
 	{
-		"title": "Killer's Kiss",
-		"year": 1955,
-		"alsoWriter" : false,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/a/a6/KillersKissPoster.jpg",
-		"runTime": "67 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0048254",
-		"imdbRating": 6.6
+		"image": "53.jpg",
+		"date": "May 12, 2022",
+		"time": "1:43 PM",
+		"location": "Kerrey Hall Dorm, NYC",
+		"medium": "Environment",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "The Killing",
-		"year": 1956,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/d/d6/TheKillingPosterKubrick.jpg",
-		"runTime": "84 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0049406",
-		"imdbRating": 7.9
+		"image": "3.jpg",
+		"date": "March 2, 2023",
+		"time": "11:42 AM",
+		"location": "2W 13th Street, NYC",
+		"medium": "Environment",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "Paths of Glory",
-		"year": 1957,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paths_of_Glory_%281957_poster%29.jpg/316px-Paths_of_Glory_%281957_poster%29.jpg",
-		"runTime": "88 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0050825",
-		"imdbRating": 8.4
+		"image": "4.jpg",
+		"date": "March 2, 2023",
+		"time": "11:42 AM",
+		"location": "2W 13th Street, NYC",
+		"medium": "Environment",
+		"proximity": "Far"
 	},
+
 	{
-		"title": "Spartacus",
-		"year": 1960,
-		"alsoWriter" : false,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Spartacus_-_1960_-_poster.png",
-		"runTime": "197 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0054331",
-		"imdbRating": 7.9
+		"image": "5.jpg",
+		"date": "March 2, 2023",
+		"time": "11:45 AM",
+		"location": "66 5th Ave, NYC",
+		"medium": "Environment",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "Lolita",
-		"year": 1962,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lolita_%281962_film_poster%29.jpg/310px-Lolita_%281962_film_poster%29.jpg",
-		"runTime": "152 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0056193",
-		"imdbRating": 7.5
+		"image": "6.jpg",
+		"date": "March 2, 2023",
+		"time": "11:47 AM",
+		"location": "66 5th Ave, NYC",
+		"medium": "Advertisement",
+		"proximity": "Close"
 	},
+
 	{
-		"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-		"year": 1964,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/e/e6/Dr._Strangelove_poster.jpg",
-		"runTime": "94 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0057012",
-		"imdbRating": 8.4
+		"image": "54.jpg",
+		"date": "March 16, 2022",
+		"time": "1:55 PM",
+		"location": "Selfridges, London",
+		"medium": "Environment",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "2001: A Space Odyssey",
-		"year": 1968,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png",
-		"runTime": "143 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0062622",
-		"imdbRating": 8.3
+		"image": "8.jpg",
+		"date": "March 3, 2023",
+		"time": "5:38 PM",
+		"location": "NewSchool Dining Hall, NYC",
+		"medium": "Snacks",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "A Clockwork Orange",
-		"year": 1971,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/7/73/A_Clockwork_Orange_%281971%29.png",
-		"runTime": "136 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0066921",
-		"imdbRating": 8.3
+		"image": "55.jpg",
+		"date": "February 12, 2022",
+		"time": "10:04 AM",
+		"location": "FAO Schwart, NYC",
+		"medium": "Toy Store",
+		"proximity": "Distant"
 	},
+
 	{
-		"title": "Barry Lyndon",
-		"year": 1975,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Barry_Lyndon_A.jpg",
-		"runTime": "187 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0072684",
-		"imdbRating": 8.1
+		"image": "56.jpg",
+		"date": "September 28, 2022",
+		"time": "9:53 PM",
+		"location": "65 5th Ave, NYC",
+		"medium": "Posters",
+		"proximity": "Close"
 	},
+
 	{
-		"title": "The Shining",
-		"year": 1980,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg",
-		"runTime": "144 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0081505",
-		"imdbRating": 8.4
+		"image": "12.jpg",
+		"date": "March 19, 2022",
+		"time": "7:08 PM",
+		"location": "Zara Restroom, NYC",
+		"medium": "Bag",
+		"proximity": "Close"
 	},
+
 	{
-		"title": "Full Metal Jacket",
-		"year": 1987,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/9/99/Full_Metal_Jacket_poster.jpg",
-		"runTime": "116 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0093058",
-		"imdbRating": 8.3
+		"image": "13.jpg",
+		"date": "January 29, 2023",
+		"time": "3:18 PM",
+		"location": "NewSchool UC Library, NYC",
+		"medium": "Artwork",
+		"proximity": "Close"
 	},
+
 	{
-		"title": "Eyes Wide Shut",
-		"year": 1999,
-		"alsoWriter" : true,
-		"posterImage": "https://upload.wikimedia.org/wikipedia/en/7/73/Eyes_Wide_Shut_%281999%29.png",
-		"runTime": "159 minutes",
-		"imdbLink": "https://www.imdb.com/title/tt0120663",
-		"imdbRating": 7.5
+		"image": "2.jpg",
+		"date": "February 26, 2023",
+		"time": "12:09 PM",
+		"location": "2W 13th Street, 1013, NYC",
+		"medium": "Useful Things",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "14.jpg",
+		"date": "October 20, 2022",
+		"time": "4:00 PM",
+		"location": "NewSchool UC Library, NYC",
+		"medium": "Books",
+		"proximity": "Close"
+	},
+   
+	{
+		"image": "15.jpg",
+		"date": "March 12, 2023",
+		"time": "2:23 PM",
+		"location": "Union Square Subway, NYC",
+		"medium": "Card",
+		"proximity": "Close"
+	},
+   
+	{
+		"image": "16.jpg",
+		"date": "February 13, 2023",
+		"time": "1:26 PM",
+		"location": "66W 12th Street, NYC",
+		"medium": "Wires",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "17.jpg",
+		"date": "March 3, 2023",
+		"time": "10:22 AM",
+		"location": "2W 13th Street, NYC",
+		"medium": "Stickers",
+		"proximity": "Close"
+	},
+ 
+	{
+		"image": "18.jpg",
+		"date": "January 30, 2023",
+		"time": "12:00 PM",
+		"location": "NewSchool Design Lab, NYC",
+		"medium": "Magazine",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "57.jpg",
+		"date": "August 20, 2022",
+		"time": "9:49 AM",
+		"location": "Kerrey Hall Dorm, NYC",
+		"medium": "Shoes",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "21.jpg",
+		"date": "March 16, 2023",
+		"time": "1:33 PM",
+		"location": "NewSchool Design Lab, NYC",
+		"medium": "Rubber Bands",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "59.jpg",
+		"date": "June 5, 2023",
+		"time": "11:20 AM",
+		"location": "Kite Beach, Dubai",
+		"medium": "Sand Toys",
+		"proximity": "Close"
+	},
+ 
+	{
+		"image": "23.jpg",
+		"date": "April 3, 2022",
+		"time": "11:43 AM",
+		"location": "5 Ave 13th Street, NYC",
+		"medium": "Advertisement",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "24.jpg",
+		"date": "March 5, 2023",
+		"time": "3:26 PM",
+		"location": "Joe's Coffee, NYC",
+		"medium": "Flag",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "25.jpg",
+		"date": "March 2, 2023",
+		"time": "5:32 PM",
+		"location": "5 Ave 13th Street, NYC",
+		"medium": "Stickers",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "7.jpg",
+		"date": "March 6, 2023",
+		"time": "11:27 AM",
+		"location": "NewSchool UC, NYC",
+		"medium": "Environment",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "10.jpg",
+		"date": "October 2, 2022",
+		"time": "1:45 PM",
+		"location": "NewSchool UC Library, NYC",
+		"medium": "Poster",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "11.jpg",
+		"date": "March 8, 2023",
+		"time": "7:02 PM",
+		"location": "NewSchool UC Library, NYC",
+		"medium": "Fire Extinguisher",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "26.jpg",
+		"date": "Janurary 26, 2023",
+		"time": "1:48 PM",
+		"location": "Flatiton, NYC",
+		"medium": "Buttons",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "27.jpg",
+		"date": "February 18, 2023",
+		"time": "3:16 PM",
+		"location": "U ONE MARKET, NYC",
+		"medium": "Flowers",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "28.jpg",
+		"date": "March 12, 2023",
+		"time": "8:57 AM",
+		"location": "1 Irving Pl, NYC",
+		"medium": "Sticker",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "60.jpg",
+		"date": "July 22, 2022",
+		"time": "5:27 PM",
+		"location": "Mumbai, India",
+		"medium": "Cards",
+		"proximity": "Close"
+	},
+ 
+	{
+		"image": "30.jpg",
+		"date": "March 6, 2023",
+		"time": "10:16 AM",
+		"location": "2W 13th Street, 801, NYC",
+		"medium": "Hair Clips",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "31.jpg",
+		"date": "December 21, 2022",
+		"time": "9:04 PM",
+		"location": "1 Irving Pl, NYC",
+		"medium": "Stationery",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "32.jpg",
+		"date": "March 15, 2023",
+		"time": "8:49 AM",
+		"location": "Gym, NYC",
+		"medium": "Sticker",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "33.jpg",
+		"date": "March 15, 2023",
+		"time": "8:50 AM",
+		"location": "Gym, NYC",
+		"medium": "Weights",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "34.jpg",
+		"date": "March 18, 2023",
+		"time": "11:21 PM",
+		"location": "Restroom, NYC",
+		"medium": "Useful Things",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "35.jpg",
+		"date": "February 12, 2023",
+		"time": "3:32 PM",
+		"location": "CVS, NYC",
+		"medium": "Convience Store",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "36.jpg",
+		"date": "March 4, 2023",
+		"time": "11:59 AM",
+		"location": "Union Square, NYC",
+		"medium": "Environment",
+		"proximity": "Far"
+	},
+
+	{
+		"image": "37.jpg",
+		"date": "March 10, 2023",
+		"time": " 1:41 PM",
+		"location": "Union Square, NYC",
+		"medium": "Environment",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "19.jpg",
+		"date": "January 30, 2023",
+		"time": "12:05 PM",
+		"location": "NewSchool Design Lab, NYC",
+		"medium": "Magazine",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "20.jpg",
+		"date": "January 30, 2023",
+		"time": "12:07 PM",
+		"location": "NewSchool Design Lab, NYC",
+		"medium": "Poster",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "29.jpg",
+		"date": "February 14, 2023",
+		"time": "2:28 PM",
+		"location": "Home, NYC",
+		"medium": "Chocolate",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "38.jpg",
+		"date": "March 11, 2023",
+		"time": "11:50 AM",
+		"location": "Union Square, NYC",
+		"medium": "Car Parts",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "39.jpg",
+		"date": "May 5, 2022",
+		"time": "12:45 PM",
+		"location": "1 Irving Pl, NYC",
+		"medium": "Advertisement",
+		"proximity": "Close"
+	},
+ 
+	{
+		"image": "40.jpg",
+		"date": "March 9, 2023",
+		"time": "11:11 AM",
+		"location": "2W 13th Street, 1013, NYC",
+		"medium": "Useful Things",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "41.jpg",
+		"date": "February 27, 2023",
+		"time": "1:53 PM",
+		"location": "Union Square, NYC",
+		"medium": "Hats",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "52.jpg",
+		"date": "May 24, 2022",
+		"time": "3:29 PM",
+		"location": "Sagrada Familia, Barcelona",
+		"medium": "Church",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "43.jpg",
+		"date": "December 19, 2022",
+		"time": "10:43 AM",
+		"location": "Marrakech, Morocco",
+		"medium": "Potpourri",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "44.jpg",
+		"date": "December 23, 2022",
+		"time": "2:19 PM",
+		"location": "Fes, Morocco",
+		"medium": "Light",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "61.jpg",
+		"date": "March 13, 2023",
+		"time": "9:00 AM",
+		"location": "Cancun, Mexic",
+		"medium": "Decor",
+		"proximity": "Distant"
+	},
+
+	{
+		"image": "46.jpg",
+		"date": "November 25, 2022",
+		"time": "8:47 PM",
+		"location": "Disney Springs, Orlando",
+		"medium": "Sculpture",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "47.jpg",
+		"date": "November 18, 2022",
+		"time": "4:20 PM",
+		"location": "Poster House, NYC",
+		"medium": "Poster",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "48.jpg",
+		"date": "March 10, 2023",
+		"time": "12:28 PM",
+		"location": "NewSchool Design Lab, NYC",
+		"medium": "Book",
+		"proximity": "Close"
+	},
+
+	{
+		"image": "49.jpg",
+		"date": "April 16, 2022",
+		"time": "10:06 PM",
+		"location": "Empire State Building, NYC",
+		"medium": "Building",
+		"proximity": "Close"
 	}
 ]

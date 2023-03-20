@@ -1,28 +1,92 @@
 /* Just to make the demo easier to work with. */
-
-:root {
-	--spacing: 1em;
-}
-
-
+/* *{
+    box-sizing: border-box;
+} */
 
 body {
 	font-family: sans-serif;
-	padding: var(--spacing);
-	padding-bottom: 33vh;
+	background-color: black;
+	padding-top: 1vw;
 }
 
-aside { margin-bottom: calc(4 * var(--spacing)); }
+.one{
+	background: rgb(47, 103, 193);
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: 0vw;
+	margin-left: 21vw;
 
-h1 { font-size: 200%; }
+}
 
-h2 { font-weight: bold; }
+.two{
+	background: rgb(211, 82, 68);
+    border-radius: 50%;
+	width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: -35vw;
+	margin-left: 41vw;
+}
 
-a { color: blue; }
+.three{
+	background: rgb(230, 255, 71);
+    border-radius: 50%;
+	width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: -17vw;
+	margin-left: 31vw;
+}
 
-em { font-style: italic }
+h1 { 
+	font-size: 12vw; 
+	text-align: center;
+	color: white;
+	justify-content: center;
+	margin-top: -31vw;
+	position: relative;
+	font-family: groupie-gloss, sans-serif;
+}
 
-ul {
+h5{
+	font-size: 2.5vw; 
+	text-align: right;
+	color: white;
+	margin-top: -33vw;
+	margin-right: 4vw;
+	font-family: groupie-gloss, sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4.25vw;
+	padding-top: 53vw;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 .25vw;
+}
+
+.column img{
+    margin-top: .5vw;
+    vertical-align: middle;
+    width: 100%;
+    opacity: 0.9;
+    filter:grayscale(100%);
+	border-radius: 2%;
+}
+
+.column img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+/* ul {
 	display: grid;
 	gap: calc(4 * var(--spacing));
 	margin-top: calc(4 * var(--spacing));
@@ -31,6 +95,8 @@ ul {
 li {
 	display: grid;
 	gap: var(--spacing);
-}
+} */
 
-.faded { opacity: 0.333 }
+/* .faded { opacity: 0.333 } */
+
+
