@@ -1,0 +1,137 @@
+.cloth {
+	height: 20vw;
+	width: 50vw;
+    background: repeating-linear-gradient(
+to right,
+#af3e0d,
+#fff 10px,
+#af3e0d 10px,
+#fff 20px
+);
+    transform: skew(-12deg);
+    margin: 0 auto;
+    margin-top: 18vw;
+    z-index: 1;
+    position: relative;
+}
+
+.book{
+    width: 10vw;
+    height: 15vw;
+    transform: skew(12deg);
+    background: black;
+    margin-top: -25vw;
+    margin-left: 35vw;
+    z-index: 2;
+    position: relative;
+}
+
+.oval{
+    background-color: black;
+    outline: .2vw solid white ;
+    height: 3vw;
+    width: 9vw;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -9vw;
+    margin-left: 35.5vw;
+    z-index: 3;
+    position: relative;
+}
+
+.eye{
+    width: 2.8vw;
+    height: 2.8vw;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(112, 142, 240) 60%);
+    opacity: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 4;
+    position: relative;
+    
+}
+
+.orange{
+    width: 7vw;
+    height: 7vw;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(250,136,17,1) 60%);
+    border-radius: 50%;
+    margin-top: 4vw;
+    margin-left: 51vw;
+    z-index: 5;
+    position: relative;
+}
+
+.mirror{
+    width: 12vw;
+    height: 12vw;
+    background: radial-gradient(circle, white 0%, black 100%);
+    border-radius: 50%;
+    margin-top: -19vw;
+    margin-left: 58vw;
+    z-index: 5;
+    position: relative;
+}
+
+.book2{
+    width: 10.5vw;
+    height: 6vw;
+    background: repeating-linear-gradient(
+        to right,
+        #39922b,
+        #1d0404 10px,
+        #39922b 20px,
+        #1d0404 10px
+        );
+    margin-top: 1vw;
+    margin-left: 35vw;
+    z-index: 6;
+    position: relative;
+    transform: skew(-12deg);
+}
+
+.rectangle{
+    width: 10.5vw;
+    height: 1vw;
+    background: red;
+    color: white;
+    font-size: .8vw;
+    text-align: center;
+    margin-top: 0vw;
+    margin-left: 34.4vw;
+    position: relative;
+    z-index: 7;
+}
+
+.leg1{
+    width: 1.2vw;
+    height: 3vw;
+    background: radial-gradient(circle, white 0%, black 100%);
+    z-index: 4;
+    position: relative;
+    transform: skew(-12deg);
+    margin-top: -10vw;
+    margin-left: 59.5vw;
+}
+
+.leg2{
+    width: 1.2vw;
+    height: 3vw;
+    background: radial-gradient(circle, white 0%, black 100%);
+    z-index: 4;
+    position: relative;
+    transform: skew(12deg);
+    margin-top: -3vw;
+    margin-left: 67vw;
+}
+
+.ball{
+    width: 7vw;
+    height: 7vw;
+    background: linear-gradient(90deg, rgba(240,177,70,1) 5%, rgba(162,95,25,1) 33%, rgba(195,164,111,1) 68%, rgba(105,85,65,1) 95%);
+    border-radius: 50%;
+    margin-top: -5vw;
+    margin-left: 25vw;
+    z-index: 8;
+    position: relative;
+}
