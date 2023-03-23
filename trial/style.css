@@ -1,0 +1,21 @@
+.gallery{
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+}
+
+.gallery-img{
+    width: 30vw;
+}
+
+
+/* #button{
+
+    padding: 2em;
+    width: 100px;
+    height: px;
+    border: 1px solid black;
+}
+.clicked{
+    background: red;
+} */
