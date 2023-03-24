@@ -523,11 +523,11 @@ function generateGalleryItems(images){
 	cardBack.classList.add('card_face')
 
 
-	date.innerHTML = 'Date:'+ images.date
-	time.innerHTML = 'Time:'+ images.time
-	location.innerHTML = 'Location:'+ images.location
-	medium.innerHTML = 'Medium:'+ images.medium
-	proximity.innerHTML = 'Proximity:'+ images.proximity
+	date.innerHTML = 'Date: '+ images.date
+	time.innerHTML = 'Time: '+ images.time
+	location.innerHTML = 'Location: '+ images.location
+	medium.innerHTML = 'Medium: '+ images.medium
+	proximity.innerHTML = 'Proximity: '+ images.proximity
 
 	cardFront.appendChild(img);
 	card.appendChild(cardFront);
