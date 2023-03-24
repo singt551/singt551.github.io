@@ -359,23 +359,23 @@ let images = [
 		"proximity": "Close"
 	},
 
-	{
-		"image": "./imgs/20.jpg",
-		"date": "January 30, 2023",
-		"time": "12:07 PM",
-		"location": "NewSchool Design Lab, NYC",
-		"medium": "Poster",
-		"proximity": "Distant"
-	},
+	// {
+	// 	"image": "./imgs/20.jpg",
+	// 	"date": "January 30, 2023",
+	// 	"time": "12:07 PM",
+	// 	"location": "NewSchool Design Lab, NYC",
+	// 	"medium": "Poster",
+	// 	"proximity": "Distant"
+	// },
 
-	{
-		"image": "./imgs/29.jpg",
-		"date": "February 14, 2023",
-		"time": "2:28 PM",
-		"location": "Home, NYC",
-		"medium": "Chocolate",
-		"proximity": "Close"
-	},
+	// {
+	// 	"image": "./imgs/29.jpg",
+	// 	"date": "February 14, 2023",
+	// 	"time": "2:28 PM",
+	// 	"location": "Home, NYC",
+	// 	"medium": "Chocolate",
+	// 	"proximity": "Close"
+	// },
 
 	{
 		"image": "./imgs/38.jpg",
@@ -465,25 +465,25 @@ let images = [
 		"location": "Poster House, NYC",
 		"medium": "Poster",
 		"proximity": "Close"
-	},
-
-	{
-		"image": "./imgs/48.jpg",
-		"date": "March 10, 2023",
-		"time": "12:28 PM",
-		"location": "NewSchool Design Lab, NYC",
-		"medium": "Book",
-		"proximity": "Close"
-	},
-
-	{
-		"image": "./imgs/49.jpg",
-		"date": "April 16, 2022",
-		"time": "10:06 PM",
-		"location": "Empire State Building, NYC",
-		"medium": "Building",
-		"proximity": "Close"
 	}
+
+	// {
+	// 	"image": "./imgs/48.jpg",
+	// 	"date": "March 10, 2023",
+	// 	"time": "12:28 PM",
+	// 	"location": "NewSchool Design Lab, NYC",
+	// 	"medium": "Book",
+	// 	"proximity": "Close"
+	// },
+
+	// {
+	// 	"image": "./imgs/49.jpg",
+	// 	"date": "April 16, 2022",
+	// 	"time": "10:06 PM",
+	// 	"location": "Empire State Building, NYC",
+	// 	"medium": "Building",
+	// 	"proximity": "Close"
+	// }
 ]
 
 
@@ -497,7 +497,50 @@ function generateGalleryItems(images){
 	// paragraph.innerHTML = images.date
 	
 	const galleryItem = document.createElement("div") // creates a new div called gallery item
-	galleryItem.appendChild(img); // adds the image into the div
+	galleryItem.classList.add('scene--card') 
+	galleryItem.classList.add('scene')
+
+	const card = document.createElement('div')
+	const cardBack = document.createElement('div')
+	const cardFront = document.createElement('div')
+
+	const date = document.createElement('p')
+	const time = document.createElement('p')
+	const location = document.createElement('p')
+	const medium = document.createElement('p')
+	const proximity = document.createElement('p')
+
+	// date.classList.add('card-back')
+	// date.classList.add('gallery-img')
+	cardFront.classList.add('card-front')
+	// img.classList.add('card-front')
+	card.classList.add('card')
+	// time.classList.add('card-back')
+	cardBack.classList.add('card-back')
+	// time.classList.add('gallery-img')
+	img.classList.add('gallery-img')
+	cardFront.classList.add('card_face')
+	cardBack.classList.add('card_face')
+
+
+	date.innerHTML = 'Date:'+ images.date
+	time.innerHTML = 'Time:'+ images.time
+	location.innerHTML = 'Location:'+ images.location
+	medium.innerHTML = 'Medium:'+ images.medium
+	proximity.innerHTML = 'Proximity:'+ images.proximity
+
+	cardFront.appendChild(img);
+	card.appendChild(cardFront);
+	// card.appendChild(img); // adds the image into the div
+	galleryItem.appendChild(card);
+	card.appendChild(cardBack)
+	
+	cardBack.appendChild(date)
+	cardBack.appendChild(time)
+	cardBack.appendChild(location)
+	cardBack.appendChild(medium)
+	cardBack.appendChild(proximity)
+
 	
 	// galleryItem.appendChild(paragraph);
 	
@@ -508,8 +551,20 @@ function generateGalleryItems(images){
 	
 	images.forEach(generateGalleryItems)
 
+	var cards = document.querySelectorAll('.card');
 
-
+	[...cards].forEach((card)=>{
+	  card.addEventListener( 'click', function() {
+		card.classList.toggle('is-flipped');
+	  });
+	});
+	
+	// document.querySelectorAll("img").forEach((item) => {
+	// 	item.addEventListener("click", (event) => {
+	// 	  const image = event.target.getAttribute("data-src");
+	// 	  event.target.setAttribute("src", image);
+	// 	});
+	//   });
 
 // Function to render your items
 // const renderItems = (collection) => {
@@ -552,20 +607,6 @@ function generateGalleryItems(images){
 // 	})
 // }
 
-var cards = document.querySelectorAll('.card');
-
-[...cards].forEach((card)=>{
-  card.addEventListener( 'click', function() {
-    card.classList.toggle('is-flipped');
-  });
-});
-
-document.querySelectorAll("img").forEach((item) => {
-	item.addEventListener("click", (event) => {
-	  const image = event.target.getAttribute("data-src");
-	  event.target.setAttribute("src", image);
-	});
-  });
 
 
 // Fetch gets your JSON file…

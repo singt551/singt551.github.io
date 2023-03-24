@@ -65,63 +65,116 @@ h5{
 	font-family: groupie-gloss, sans-serif;
 }
 
-p{
-	font-family: "mrs-eaves-xl-serif-narrow", serif;
-}
-
 .gallery{
     display: flex;
-	flex-wrap:wrap;
-	/* flex: 100%; */
+	flex-wrap: wrap;
     max-width: 100%;
-	padding: 0 10vw;
-	align-items: center;
-    /* grid-gap: 1vw;
-    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr)); */
+	align-items: stretch;
+	padding: 0 3vw;
+	justify-content: center;
 }
 
-.gallery-img{
-    width: 20vw;
-	padding: 0 .25vw;
-    vertical-align: middle;
-    opacity: 0.9;
-    filter:grayscale(100%);
-	border-radius: 2%;
+.scene--card{
+	align-items: stretch;
 }
-
-.gallery-img:hover{
-    opacity: 1;
-    filter: grayscale(0);
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4.25vw;
-	padding-top: 53vw;
-}
-
-.column{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 .25vw;
-}
-
-/* .column img{
-    margin-top: .5vw;
-    vertical-align: middle;
-    width: 100%;
-    opacity: 0.9;
-    filter:grayscale(100%);
-	border-radius: 2%;
-} */
-
-/* .column img:hover{
-    opacity: 1;
-    filter: grayscale(0);
-} */
 
 .scene {
+	display: inline-block;
+	width: 17vw;
+	height: 20vw;
+	/* margin: .25vw; */
+	perspective: 600px;
+	filter:grayscale(100%);
+	opacity: 0.9;
+  }
+
+  .scene:hover{
+	opacity: 1;
+    filter: grayscale(0);
+}
+
+/* .gallery-img{
+    width: 23vw;
+	height: 100%;
+	padding: .25vw;
+    vertical-align: middle;
+    opacity: 0.9;
+    filter:grayscale(100%);
+	border-radius: 2%;
+	overflow: auto;
+} */
+
+
+.card{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	transform-origin: center right;
+	transition: transform 1s infinite;
+}
+
+.card_face{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+.card.is-flipped {
+	transform: translateX(-100%) rotateY(-180deg);
+  }
+
+
+/* .card-front{
+	backface-visibility: hidden;
+} */
+
+.gallery-img{
+	position: relative;
+	width: 17vw;
+	height: 20vw;
+	padding: .25vw;
+	border-radius: 3%;
+	z-index: 10;
+}
+
+.card-back{
+	transform: rotateY(180deg);
+	background: rgb(47, 103, 193);
+	border-radius: 3%;
+}
+
+.card-back p{
+	font-family: "mrs-eaves-xl-serif-narrow", serif;
+	font-size: 1.7vw;
+	padding: .7vw;
+	text-align: left;
+}
+
+
+
+/* .card-front{
+	filter:grayscale(100%);
+	opacity: 0.9;
+} */
+
+
+
+/* .gallery-img img{
+	object-fit: cover;
+
+} */
+
+/* .gallery-img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+} */
+
+
+/* .scene {
 	display: inline-block;
 	width: 200px;
 	height: 260px;
@@ -161,4 +214,18 @@ p{
   .card__face--back {
 	background: slateblue;
 	transform: rotateY(180deg);
-  }
+  } */
+
+  /* .column img{
+    margin-top: .5vw;
+    vertical-align: middle;
+    width: 100%;
+    opacity: 0.9;
+    filter:grayscale(100%);
+	border-radius: 2%;
+} */
+
+/* .column img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+} */
