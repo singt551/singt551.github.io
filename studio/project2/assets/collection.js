@@ -1,6 +1,6 @@
 let images = [ 
 	{
-		"image": "./project2/imgs/50.jpg",
+		"image": "./imgs/50.JPG",
 		"date": "June 26, 2022",
 		"time": "2:14 PM",
 		"location": "Budapest, Hungary",
