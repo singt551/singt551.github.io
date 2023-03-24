@@ -9,7 +9,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/53.jpg",
+		"image": "./imgs/53.JPG",
 		"date": "May 12, 2022",
 		"time": "1:43 PM",
 		"location": "Kerrey Hall Dorm, NYC",
