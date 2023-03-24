@@ -1,6 +1,6 @@
 let images = [ 
 	{
-		"image": "./imgs/50.jpg",
+		"image": "./imgs/50.JPG",
 		"date": "June 26, 2022",
 		"time": "2:14 PM",
 		"location": "Budapest, Hungary",
@@ -18,7 +18,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/3.jpg",
+		"image": "./imgs/3.JPG",
 		"date": "March 2, 2023",
 		"time": "11:42 AM",
 		"location": "2W 13th Street, NYC",
@@ -27,7 +27,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/4.jpg",
+		"image": "./imgs/4.JPG",
 		"date": "March 2, 2023",
 		"time": "11:42 AM",
 		"location": "2W 13th Street, NYC",
@@ -36,7 +36,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/5.jpg",
+		"image": "./imgs/5.JPG",
 		"date": "March 2, 2023",
 		"time": "11:45 AM",
 		"location": "66 5th Ave, NYC",
@@ -45,7 +45,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/6.jpg",
+		"image": "./imgs/6.JPG",
 		"date": "March 2, 2023",
 		"time": "11:47 AM",
 		"location": "66 5th Ave, NYC",
@@ -54,7 +54,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/54.jpg",
+		"image": "./imgs/54.JPG",
 		"date": "March 16, 2022",
 		"time": "1:55 PM",
 		"location": "Selfridges, London",
@@ -63,7 +63,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/8.jpg",
+		"image": "./imgs/8.JPG",
 		"date": "March 3, 2023",
 		"time": "5:38 PM",
 		"location": "NewSchool Dining Hall, NYC",
@@ -72,7 +72,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/55.jpg",
+		"image": "./imgs/55.JPG",
 		"date": "February 12, 2022",
 		"time": "10:04 AM",
 		"location": "FAO Schwart, NYC",
@@ -81,7 +81,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/56.jpg",
+		"image": "./imgs/56.JPG",
 		"date": "September 28, 2022",
 		"time": "9:53 PM",
 		"location": "65 5th Ave, NYC",
@@ -90,7 +90,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/12.jpg",
+		"image": "./imgs/12.JPG",
 		"date": "March 19, 2022",
 		"time": "7:08 PM",
 		"location": "Zara Restroom, NYC",
@@ -99,7 +99,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/13.jpg",
+		"image": "./imgs/13.JPG",
 		"date": "January 29, 2023",
 		"time": "3:18 PM",
 		"location": "NewSchool UC Library, NYC",
@@ -108,7 +108,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/2.jpg",
+		"image": "./imgs/2.JPG",
 		"date": "February 26, 2023",
 		"time": "12:09 PM",
 		"location": "2W 13th Street, 1013, NYC",
@@ -117,7 +117,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/14.jpg",
+		"image": "./imgs/14.JPG",
 		"date": "October 20, 2022",
 		"time": "4:00 PM",
 		"location": "NewSchool UC Library, NYC",
@@ -126,7 +126,7 @@ let images = [
 	},
    
 	{
-		"image": "./imgs/15.jpg",
+		"image": "./imgs/15.JPG",
 		"date": "March 12, 2023",
 		"time": "2:23 PM",
 		"location": "Union Square Subway, NYC",
@@ -135,7 +135,7 @@ let images = [
 	},
    
 	{
-		"image": "./imgs/16.jpg",
+		"image": "./imgs/16.JPG",
 		"date": "February 13, 2023",
 		"time": "1:26 PM",
 		"location": "66W 12th Street, NYC",
@@ -144,7 +144,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/17.jpg",
+		"image": "./imgs/17.JPG",
 		"date": "March 3, 2023",
 		"time": "10:22 AM",
 		"location": "2W 13th Street, NYC",
@@ -153,7 +153,7 @@ let images = [
 	},
  
 	{
-		"image": "./imgs/18.jpg",
+		"image": "./imgs/18.JPG",
 		"date": "January 30, 2023",
 		"time": "12:00 PM",
 		"location": "NewSchool Design Lab, NYC",
@@ -162,7 +162,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/57.jpg",
+		"image": "./imgs/57.JPG",
 		"date": "August 20, 2022",
 		"time": "9:49 AM",
 		"location": "Kerrey Hall Dorm, NYC",
@@ -171,7 +171,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/21.jpg",
+		"image": "./imgs/21.JPG",
 		"date": "March 16, 2023",
 		"time": "1:33 PM",
 		"location": "NewSchool Design Lab, NYC",
@@ -180,7 +180,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/59.jpg",
+		"image": "./imgs/59.JPG",
 		"date": "June 5, 2023",
 		"time": "11:20 AM",
 		"location": "Kite Beach, Dubai",
@@ -189,7 +189,7 @@ let images = [
 	},
  
 	{
-		"image": "./imgs/23.jpg",
+		"image": "./imgs/23.JPG",
 		"date": "April 3, 2022",
 		"time": "11:43 AM",
 		"location": "5 Ave 13th Street, NYC",
@@ -198,7 +198,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/24.jpg",
+		"image": "./imgs/24.JPG",
 		"date": "March 5, 2023",
 		"time": "3:26 PM",
 		"location": "Joe's Coffee, NYC",
