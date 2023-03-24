@@ -1,6 +1,6 @@
 let images = [ 
 	{
-		"image": "./imgs/50.jpg",
+		"image": "./project2/imgs/50.jpg",
 		"date": "June 26, 2022",
 		"time": "2:14 PM",
 		"location": "Budapest, Hungary",
@@ -359,24 +359,6 @@ let images = [
 		"proximity": "Close"
 	},
 
-	// {
-	// 	"image": "./imgs/20.jpg",
-	// 	"date": "January 30, 2023",
-	// 	"time": "12:07 PM",
-	// 	"location": "NewSchool Design Lab, NYC",
-	// 	"medium": "Poster",
-	// 	"proximity": "Distant"
-	// },
-
-	// {
-	// 	"image": "./imgs/29.jpg",
-	// 	"date": "February 14, 2023",
-	// 	"time": "2:28 PM",
-	// 	"location": "Home, NYC",
-	// 	"medium": "Chocolate",
-	// 	"proximity": "Close"
-	// },
-
 	{
 		"image": "./imgs/38.jpg",
 		"date": "March 11, 2023",
@@ -466,24 +448,6 @@ let images = [
 		"medium": "Poster",
 		"proximity": "Close"
 	}
-
-	// {
-	// 	"image": "./imgs/48.jpg",
-	// 	"date": "March 10, 2023",
-	// 	"time": "12:28 PM",
-	// 	"location": "NewSchool Design Lab, NYC",
-	// 	"medium": "Book",
-	// 	"proximity": "Close"
-	// },
-
-	// {
-	// 	"image": "./imgs/49.jpg",
-	// 	"date": "April 16, 2022",
-	// 	"time": "10:06 PM",
-	// 	"location": "Empire State Building, NYC",
-	// 	"medium": "Building",
-	// 	"proximity": "Close"
-	// }
 ]
 
 
