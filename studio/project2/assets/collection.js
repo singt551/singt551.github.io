@@ -72,7 +72,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/55.JPG",
+		"image": "./imgs/55.jpg",
 		"date": "February 12, 2022",
 		"time": "10:04 AM",
 		"location": "FAO Schwart, NYC",
@@ -81,7 +81,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/56.JPG",
+		"image": "./imgs/56.jpg",
 		"date": "September 28, 2022",
 		"time": "9:53 PM",
 		"location": "65 5th Ave, NYC",
@@ -90,7 +90,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/12.JPG",
+		"image": "./imgs/12.jpg",
 		"date": "March 19, 2022",
 		"time": "7:08 PM",
 		"location": "Zara Restroom, NYC",
@@ -99,7 +99,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/13.JPG",
+		"image": "./imgs/13.jpg",
 		"date": "January 29, 2023",
 		"time": "3:18 PM",
 		"location": "NewSchool UC Library, NYC",
@@ -180,7 +180,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/59.JPG",
+		"image": "./imgs/59.jpg",
 		"date": "June 5, 2023",
 		"time": "11:20 AM",
 		"location": "Kite Beach, Dubai",
@@ -207,7 +207,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/25.jpg",
+		"image": "./imgs/25.JPG",
 		"date": "March 2, 2023",
 		"time": "5:32 PM",
 		"location": "5 Ave 13th Street, NYC",
@@ -216,7 +216,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/7.jpg",
+		"image": "./imgs/7.JPG",
 		"date": "March 6, 2023",
 		"time": "11:27 AM",
 		"location": "NewSchool UC, NYC",
@@ -225,7 +225,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/10.jpg",
+		"image": "./imgs/10.JPG",
 		"date": "October 2, 2022",
 		"time": "1:45 PM",
 		"location": "NewSchool UC Library, NYC",
@@ -234,7 +234,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/11.jpg",
+		"image": "./imgs/11.JPG",
 		"date": "March 8, 2023",
 		"time": "7:02 PM",
 		"location": "NewSchool UC Library, NYC",
@@ -243,7 +243,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/26.jpg",
+		"image": "./imgs/26.JPG",
 		"date": "Janurary 26, 2023",
 		"time": "1:48 PM",
 		"location": "Flatiton, NYC",
@@ -252,7 +252,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/27.jpg",
+		"image": "./imgs/27.JPG",
 		"date": "February 18, 2023",
 		"time": "3:16 PM",
 		"location": "U ONE MARKET, NYC",
@@ -261,7 +261,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/28.jpg",
+		"image": "./imgs/28.JPG",
 		"date": "March 12, 2023",
 		"time": "8:57 AM",
 		"location": "1 Irving Pl, NYC",
@@ -279,7 +279,7 @@ let images = [
 	},
  
 	{
-		"image": "./imgs/30.jpg",
+		"image": "./imgs/30.JPG",
 		"date": "March 6, 2023",
 		"time": "10:16 AM",
 		"location": "2W 13th Street, 801, NYC",
@@ -288,7 +288,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/31.jpg",
+		"image": "./imgs/31.JPG",
 		"date": "December 21, 2022",
 		"time": "9:04 PM",
 		"location": "1 Irving Pl, NYC",
@@ -297,7 +297,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/32.jpg",
+		"image": "./imgs/32.JPG",
 		"date": "March 15, 2023",
 		"time": "8:49 AM",
 		"location": "Gym, NYC",
@@ -306,7 +306,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/33.jpg",
+		"image": "./imgs/33.JPG",
 		"date": "March 15, 2023",
 		"time": "8:50 AM",
 		"location": "Gym, NYC",
@@ -315,7 +315,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/34.jpg",
+		"image": "./imgs/34.JPG",
 		"date": "March 18, 2023",
 		"time": "11:21 PM",
 		"location": "Restroom, NYC",
@@ -324,7 +324,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/35.jpg",
+		"image": "./imgs/35.JPG",
 		"date": "February 12, 2023",
 		"time": "3:32 PM",
 		"location": "CVS, NYC",
@@ -333,7 +333,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/36.jpg",
+		"image": "./imgs/36.JPG",
 		"date": "March 4, 2023",
 		"time": "11:59 AM",
 		"location": "Union Square, NYC",
@@ -342,7 +342,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/37.jpg",
+		"image": "./imgs/37.JPG",
 		"date": "March 10, 2023",
 		"time": " 1:41 PM",
 		"location": "Union Square, NYC",
@@ -351,7 +351,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/19.jpg",
+		"image": "./imgs/19.JPG",
 		"date": "January 30, 2023",
 		"time": "12:05 PM",
 		"location": "NewSchool Design Lab, NYC",
@@ -360,7 +360,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/38.jpg",
+		"image": "./imgs/38.JPG",
 		"date": "March 11, 2023",
 		"time": "11:50 AM",
 		"location": "Union Square, NYC",
@@ -369,7 +369,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/39.jpg",
+		"image": "./imgs/39.JPG",
 		"date": "May 5, 2022",
 		"time": "12:45 PM",
 		"location": "1 Irving Pl, NYC",
@@ -378,7 +378,7 @@ let images = [
 	},
  
 	{
-		"image": "./imgs/40.jpg",
+		"image": "./imgs/40.JPG",
 		"date": "March 9, 2023",
 		"time": "11:11 AM",
 		"location": "2W 13th Street, 1013, NYC",
@@ -396,7 +396,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/52.jpg",
+		"image": "./imgs/52.JPG",
 		"date": "May 24, 2022",
 		"time": "3:29 PM",
 		"location": "Sagrada Familia, Barcelona",
@@ -405,7 +405,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/43.jpg",
+		"image": "./imgs/43.JPG",
 		"date": "December 19, 2022",
 		"time": "10:43 AM",
 		"location": "Marrakech, Morocco",
@@ -414,7 +414,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/44.jpg",
+		"image": "./imgs/44.JPG",
 		"date": "December 23, 2022",
 		"time": "2:19 PM",
 		"location": "Fes, Morocco",
@@ -432,7 +432,7 @@ let images = [
 	},
 
 	{
-		"image": "./imgs/46.jpg",
+		"image": "./imgs/46.JPG",
 		"date": "November 25, 2022",
 		"time": "8:47 PM",
 		"location": "Disney Springs, Orlando",
