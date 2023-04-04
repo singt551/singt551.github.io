@@ -1,0 +1,9 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+      <rect id="black" x="7" y="0" width="86" height="100" fill="black" />
+      <rect x="5" y="0" width="90" height="100" fill="none" stroke="pink" stroke-width="1vh" />
+      <polygon x="0" y="60" points="32,100 50,75 68,100" fill="rgb(183, 112, 124)" text-align="center"/>
+      <text x="9" y="84" fill="pink" font-family="impact" font-size="2.9vh" letter-spacing="-.3px">SILENCE=DEATH</text>
+      <text x="9.5" y="87" fill="pink" font-family="impact" font-size=".29vh">Why is Reagan silent about AIDS? What is really going on at the Center for Disease Control, the Federal Drug Administration, and the Vatican?</text>
+      <text x="16" y="90" fill="pink" font-family="impact" font-size=".29vh">Gays and lesbians are expendable...Use your power...Vote...Boycott...Defend yourself...Turn anger, fear, grief into action.</text>
+  </svg>
+
