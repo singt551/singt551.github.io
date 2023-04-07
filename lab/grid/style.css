@@ -116,6 +116,64 @@ a{
 }
 }
 
+@media (min-width: 1024px) {
+	section { 
+      	grid-template-columns: repeat(3, 1fr);
+	    grid-template-rows: 120px 50vh 100px;
+	    grid-template-areas:
+		"header header header"
+		"main   main   aside"
+		"footer footer aside";
+        gap: 9px; 
+    }
+    header{
+        font-size: 90px;
+}
+
+    main{
+        --columns: 3;
+        font-size: 25px;
+        grid-gap: 20px;
+}
+
+    aside{
+        font-size: 22.4px;
+}
+
+    footer{
+        font-size: 30px;
+}
+}
+
+@media (min-width: 1440px) {
+	section { 
+      	grid-template-columns: repeat(3, 1fr);
+	    grid-template-rows: 130px 50vh 100px;
+	    grid-template-areas:
+		"header header header"
+		"main   main   aside"
+		"footer footer aside";
+        gap: 11px; 
+    }
+    header{
+        font-size: 100px;
+}
+
+    main{
+        --columns: 3;
+        font-size: 30px;
+        grid-gap: 13px;
+}
+
+    aside{
+        font-size: 25.5px;
+}
+
+    footer{
+        font-size: 40px;
+}
+}
+
 /* @media (min-width: 600px) {
 	section { --columns: 8; }
 } */
