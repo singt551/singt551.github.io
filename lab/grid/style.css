@@ -1,3 +1,5 @@
+@import url('https://use.typekit.net/yol2pzl.css');
+
 body{
     margin: 20px;
 }
@@ -20,6 +22,8 @@ header {
     font-size: 60px;
     text-align: center;
     padding: 10px;
+    border-bottom: 3px solid rgb(25, 0, 53);
+    border-right: 3px solid rgb(25, 0, 53);
 }
 
 main {
@@ -28,33 +32,53 @@ main {
     columns: 1;
 	display: grid;
 	grid-template-columns: repeat(var(--columns), 1fr);
-    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
     padding: 10px;
-    align-items: center;
-    overflow-y: scroll;
+    text-align: center;
+    border-bottom: 3px solid rgb(25, 0, 53);
+    border-right: 3px solid rgb(25, 0, 53);
+    font-family: "turnip", serif;
+    font-weight: 200;
+    font-style: normal;
+    /* overflow-y: scroll; */
 }
 
 #yellow{
     background-color: rgb(255, 255, 19);
 }
 
+#text{
+    font-family: june-expt-variable, sans-serif;
+    text-align: center;
+}
+
 aside {
 	background-color: rgb(44, 21, 225);
 	grid-area: aside;
     padding: 10px;
-}
-
-#justify{
-    text-align: justify;
+    border-bottom: 3px solid rgb(25, 0, 53);
+    border-right: 3px solid rgb(25, 0, 53);
+    font-family: "turnip", serif;
+    text-align: center;
     color: rgb(210, 206, 233);
     font-size: 20px;
 }
+
+/* #justify{
+    text-align: justify;
+    color: rgb(210, 206, 233);
+
+} */
 
 footer {
 	grid-area: footer;
     background-color: rgb(96, 72, 255);
     padding: 10px;
     text-align: center;
+    border-bottom: 3px solid rgb(25, 0, 53);
+    border-right: 3px solid rgb(25, 0, 53);
+    font-family: "turnip", serif;
+    letter-spacing: 2px;
 }
 
 a{
@@ -65,18 +89,30 @@ a{
 
 @media (min-width: 600px) {
 	section { 
-        --columns: 6; 
       	grid-template-columns: repeat(3, 1fr);
-	    grid-template-rows: 100px 50vh 100px;
+	    grid-template-rows: 100px 40vh 350px;
 	    grid-template-areas:
 		"header header header"
 		"main   main   aside"
 		"footer footer aside";
         gap: 7px; 
     }
+    header{
+        font-size: 70px;
+}
+
 
     main{
-        --columns: 5;
+        --columns: 3;
+        font-size: 20px;
+}
+
+    aside{
+        font-size: 20px;
+}
+
+    footer{
+        font-size: 20px;
 }
 }
 
