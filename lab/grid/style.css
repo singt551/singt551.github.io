@@ -15,6 +15,15 @@ section {
     gap: 4px;
 }
 
+#fixed{
+    font-family: "turnip", serif;
+    color: darkblue;
+    font-size: 20px;
+    text-align: right;
+    position: fixed;
+    margin: 5px;
+}
+
 header {
 	background-color: rgb(141, 239, 245);
 	grid-area: header;
@@ -32,7 +41,7 @@ main {
     columns: 1;
 	display: grid;
 	grid-template-columns: repeat(var(--columns), 1fr);
-    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
     padding: 10px;
     text-align: center;
     border-bottom: 3px solid rgb(25, 0, 53);
@@ -40,7 +49,7 @@ main {
     font-family: "turnip", serif;
     font-weight: 200;
     font-style: normal;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 #yellow{
@@ -62,13 +71,8 @@ aside {
     text-align: center;
     color: rgb(210, 206, 233);
     font-size: 20px;
+    letter-spacing: 2px;
 }
-
-/* #justify{
-    text-align: justify;
-    color: rgb(210, 206, 233);
-
-} */
 
 footer {
 	grid-area: footer;
@@ -79,6 +83,14 @@ footer {
     border-right: 3px solid rgb(25, 0, 53);
     font-family: "turnip", serif;
     letter-spacing: 2px;
+}
+
+#dark{
+    text-align: center;
+    font-family: "turnip", serif;
+    letter-spacing: 2px;
+    color:  rgb(255, 255, 255);
+    font-size: 25px;
 }
 
 a{
@@ -108,18 +120,48 @@ a{
 }
 
     aside{
-        font-size: 20px;
+        font-size: 16px;
 }
 
-    footer{
+    a{
         font-size: 20px;
+}
+}
+
+@media (min-width: 768px) {
+	section { 
+      	grid-template-columns: repeat(3, 1fr);
+	    grid-template-rows: 100px 40vh 200px;
+	    grid-template-areas:
+		"header header header"
+		"main   main   aside"
+		"footer footer aside";
+        gap: 7px; 
+    }
+    header{
+        font-size: 70px;
+}
+
+
+    main{
+        --columns: 3;
+        font-size: 18px;
+        row-gap: 50px;
+}
+
+    aside{
+        font-size: 17px;
+}
+
+    a{
+        font-size: 30px;
 }
 }
 
 @media (min-width: 1024px) {
 	section { 
       	grid-template-columns: repeat(3, 1fr);
-	    grid-template-rows: 120px 50vh 100px;
+	    grid-template-rows: 120px 40vh 150px;
 	    grid-template-areas:
 		"header header header"
 		"main   main   aside"
@@ -133,14 +175,14 @@ a{
     main{
         --columns: 3;
         font-size: 25px;
-        grid-gap: 20px;
+        row-gap: 150px;
 }
 
     aside{
         font-size: 22.4px;
 }
 
-    footer{
+    a{
         font-size: 30px;
 }
 }
@@ -148,7 +190,7 @@ a{
 @media (min-width: 1440px) {
 	section { 
       	grid-template-columns: repeat(3, 1fr);
-	    grid-template-rows: 130px 50vh 100px;
+	    grid-template-rows: 130px 67vh 200px;
 	    grid-template-areas:
 		"header header header"
 		"main   main   aside"
@@ -161,19 +203,15 @@ a{
 
     main{
         --columns: 3;
-        font-size: 30px;
-        grid-gap: 13px;
+        font-size: 33px;
+        row-gap: 200px;
 }
 
     aside{
-        font-size: 25.5px;
+        font-size: 29px;
 }
 
-    footer{
-        font-size: 40px;
+    a{
+        font-size: 35px;
 }
 }
-
-/* @media (min-width: 600px) {
-	section { --columns: 8; }
-} */
