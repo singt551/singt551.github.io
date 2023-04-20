@@ -1,12 +1,5 @@
 [
       {
-         "Artist": "Eugenie Tung",
-         "Title": "16 Windows",
-         "Station": "New Lots Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 2007
-      },
-      {
          "Artist": "Robert Kushner",
          "Title": "4 Seasons Seasoned",
          "Station": "77th Street",
@@ -385,13 +378,6 @@
          "Year": 2017
       },
       {
-         "Artist": "Al Loving",
-         "Title": "Brooklyn, New Morning",
-         "Station": "Broadway Junction, Broadway-East New York (Broadway Junction), Broadway/East New York (Broadway Junction)",
-         "Line": "BMT Canarsie Line",
-         "Year": 2001
-      },
-      {
          "Artist": "Pat Steir",
          "Title": "Brueghel Series",
          "Station": "Eastern Parkway/Brooklyn Museum",
@@ -586,13 +572,6 @@
          "Station": "Beach 44th Street/Frank Avenue",
          "Line": "IND Rockaway Line",
          "Year": 2011
-      },
-      {
-         "Artist": "Michael Ingui",
-         "Title": "Crescendo",
-         "Station": "East 105th Street",
-         "Line": "BMT Canarsie Line",
-         "Year": 2007
       },
       {
          "Artist": "Schachter/Levi",
@@ -1218,13 +1197,6 @@
          "Year": 2015
       },
       {
-         "Artist": "Jennifer Kotter",
-         "Title": "MTA Jewels",
-         "Station": "6th Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 1993
-      },
-      {
          "Artist": "Olalekan Jeyifous",
          "Title": "Made With Love",
          "Station": "8th Avenue",
@@ -1421,13 +1393,6 @@
          "Year": 1998
       },
       {
-         "Artist": "Marcel Dzama",
-         "Title": "No Less Than Everything Comes Together",
-         "Station": "Bedford Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 2021
-      },
-      {
          "Artist": "Jones/Ginzel/Piras",
          "Title": "Oculus",
          "Station": "Chambers Street/World Trade Center, Park Place",
@@ -1617,13 +1582,6 @@
          "Year": 1999
       },
       {
-         "Artist": "Katherine Bradford",
-         "Title": "Queens of the Night",
-         "Station": "1st Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 2021
-      },
-      {
          "Artist": "Christopher Janney",
          "Title": "REACH New York, An Urban Musical Instrument",
          "Station": "34th Street/Herald Square",
@@ -1734,13 +1692,6 @@
          "Station": "20th Avenue",
          "Line": "BMT Sea Beach Line",
          "Year": 2019
-      },
-      {
-         "Artist": "Philemona Williamson",
-         "Title": "Seasons",
-         "Station": "Livonia Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 2007
       },
       {
          "Artist": "Skowmon Hastanan",
@@ -1972,13 +1923,6 @@
          "Station": "Christopher Street/Sheridan Square",
          "Line": "IRT West Side Line",
          "Year": 1994
-      },
-      {
-         "Artist": "Takayo Noda",
-         "Title": "The Habitat for the Yellow Bird",
-         "Station": "Sutter Avenue",
-         "Line": "BMT Canarsie Line",
-         "Year": 2007
       },
       {
          "Artist": "Cristalli/Brown",
