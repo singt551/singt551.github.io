@@ -1,0 +1,223 @@
+body {
+	font-family: sans-serif;
+	background-color: black;
+	padding-top: .5vw;
+	color: white;
+}
+
+.title{
+	width: 100vw;
+	height: 54vh;
+}
+
+.one{
+	background: rgb(47, 103, 193);
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: 0vw;
+	margin-left: 21vw;
+	animation: right 4s infinite alternate ease-in-out;
+
+}
+
+@keyframes right{
+    0%{
+        transform: translateY(0);
+        transform: scale(1);
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateY(100vh);
+        transform: scale(2);
+        filter: blur(100px);
+        transform: translateX(100vh);
+    }
+} 
+
+.two{
+	background: rgb(211, 82, 68);
+    border-radius: 50%;
+	width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: -35vw;
+	margin-left: 41vw;
+	animation: left 4s infinite alternate ease-in-out;
+}
+
+@keyframes left{
+    0%{
+        transform: translateY(0);
+        transform: scale(1);
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateY(-100vh);
+        transform: scale(2);
+        filter: blur(100px);
+        transform: translateX(-100vh);
+    }
+} 
+
+.three{
+	background: rgb(230, 255, 71);
+    border-radius: 50%;
+	width: 35vw;
+    height: 35vw;
+	opacity: 80%;
+	margin-top: -17vw;
+	margin-left: 31vw;
+	animation: top 4s infinite alternate ease-in-out;
+}
+
+@keyframes top{
+    0%{
+        transform: translateY(0);
+        transform: scale(1);
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateY(-100vh);
+        transform: scale(2);
+        filter: blur(100px);
+        transform: translateX(-100vh);
+    }
+} 
+
+h2{
+    font-size: 5vw;
+    text-align: left; 
+    font-family: bree, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: antiquewhite;
+    padding-left: 4vw;
+}
+
+h1 { 
+	font-size: 12vw; 
+	text-align: center;
+	color: white;
+	justify-content: center;
+	margin-top: -31vw;
+	position: relative;
+	font-family: groupie-gloss, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 4vw;
+    text-align: left; 
+    font-family: bree, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: antiquewhite;
+    padding-left: 4vw;
+}
+
+a{
+    color: rgb(143, 160, 227);
+    text-decoration: none; 
+}
+
+h5{
+	font-size: 1.5vw; 
+	text-align: center;
+	color: white;
+	font-family: bree, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+	position: relative;
+	padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.groupie{
+    font-family: groupie-gloss, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    position: relative;
+    margin-bottom: -2vw;
+}
+
+.eaves{
+    font-family: "mrs-eaves-xl-serif-narrow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    position: relative;
+    margin-bottom: -2vw;
+}
+
+img{
+    width: 95vw;
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile{
+    width: 20vw;
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablet{
+    width: 30vw;
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop{
+    width: 40vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colors{
+    width: 95vw;
+    height: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red{
+	color: rgb(211, 82, 68);
+}
+
+.blue{
+	color: rgb(47, 103, 193);
+}
+
+.yellow{
+	color: rgb(230, 255, 71);
+}
