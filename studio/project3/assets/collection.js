@@ -3,9 +3,14 @@ const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
 	const parentList = document.querySelectorAll('.parent');
+	const infoCard = document.createElement('div');
+	const mainSection = document.getElementById('main-section');
+	infoCard.classList.add('info-card')
+
+	mainSection.append(infoCard)
 	// const colorArray = ["red", "orange", "green", "yellow", "darkGreen", "blue", "darkBlue", "purple"];
 	// let vert = true; 
-
+	console.log(collection.length)
 
 	let i=0;
 	// let k = 0;
@@ -39,21 +44,39 @@ const renderItems = (collection) => {
 	// 	vert=!vert;
 		
 	// }
+	function renderCard(evt) {
+		let randomIndex = Math.floor(Math.random() * collection.length);
+		let randomEntry = collection[randomIndex]
+		infoCard.style.top = `${evt.pageY + 20}px`
+		infoCard.style.left = `${evt.pageX + 20}px`
 
+		infoCard.innerHTML = `
+			<p>Artist: ${randomEntry.Artist}</p>
+			<p>Title: ${randomEntry.Title}</p>
+			<p>Station: ${randomEntry.Station}</p>
+			<p>Line: ${randomEntry.Line}</p>
+			<p>Year: ${randomEntry.Year}</p>
+		`
+	}
 	// Loop through each item in the collection array
 	collection.forEach(item => {
-
+		if ( i === 14 ) {
+			return
+		}
 		const dot = document.createElement('div');
 		dot.classList.add("dot");
 		parentList[i].append(dot);
 
-
 		if(parentList[i].innerHTML==='<div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>'){
-			if(parentList.length-1>i){
+
+			if(parentList.length>i){
 				i++
+				console.log(i)
 			}	
 		}
-
+		dot.addEventListener('click', (event) => {
+			renderCard(event)
+		})
 	// 	const listItem = document.createElement('li') // Make the `li`
 
 
