@@ -72,7 +72,7 @@ section{
 
 .darkGreen{
     height: 100vh; 
-    background:#5E9236;
+    background:#00933C;
     position: absolute;
     top: 0;
     left: 90vw;
@@ -107,9 +107,9 @@ section{
 }
 
 .dot{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
+    background-color: rgb(195, 181, 181);
+    width: 20px;
+    height: 20px;
     border-radius: 100vw;
 
 }
@@ -141,7 +141,7 @@ section{
     top: 400vh;
     left: 10vw;
     background:#DD2929;
-    width: 100%; 
+    width: 90%; 
     height: 70px;
 }
 
@@ -157,7 +157,7 @@ section{
 .green2{
     position: absolute;
     background:#6CBE45;
-    width: 100%; 
+    width: 70%; 
     height: 70px;
     top: 141.5vh;
     left: 30vw;
@@ -173,13 +173,86 @@ section{
 }
 
 .orange2{
-    height: 150vh; 
+    height: 70px; 
     background:#FF6319;
     position: absolute;
-    top: 100vh;
+    top: 250vh;
     left: 60vw;
+    width: 40%;
+}
+
+.yellow1{
+    height: 250vh; 
+    background:#FCCC0A;
+    position: absolute;
+    top: 100vh;
+    left: 70vw;
     width: 70px;
 }
+
+.yellow2{
+    height: 70px; 
+    background:#FCCC0A;
+    position: absolute;
+    top: 350vh;
+    right: 25.15vw;
+    width: 100%;
+}
+
+.darkGreen1{
+    height: 300vh; 
+    background:#00933C;
+    position: absolute;
+    top: 100vh;
+    left: 90vw;
+    width: 70px;
+}
+
+.purple1{
+    height: 70px; 
+    background:#B933AD;
+    position: absolute;
+    top: 180vh;
+    left: 0vw;
+    width: 100%;
+}
+
+.darkBlue1{
+    height: 70px; 
+    background:#0039A6;
+    position: absolute;
+    top: 230vh;
+    right: 60vw;
+    width: 100%;
+}
+
+.darkBlue2{
+    height: 100vh; 
+    background:#0039A6;
+    position: absolute;
+    top: 230vh;
+    left: 40vw;
+    width: 70px;
+}
+
+.darkBlue3{
+    height: 70px; 
+    background:#0039A6;
+    position: absolute;
+    top: 330vh;
+    left: 40vw;
+    width: 60%;
+}
+
+.blue1{
+    height: 70px; 
+    background:#00ADD0;
+    position: absolute;
+    top: 290vh;
+    left: 0vw;
+    width: 100%;
+}
+
 
 ul{
     flex-direction: row;

@@ -3,55 +3,52 @@ const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
 	const parentList = document.querySelectorAll('.parent');
-	const colorArray = ["red", "orange", "green"];
-	let vert = true; 
+	// const colorArray = ["red", "orange", "green", "yellow", "darkGreen", "blue", "darkBlue", "purple"];
+	// let vert = true; 
 
 
 	let i=0;
-	let k = 0;
-	let colorIndex = 1;
+	// let k = 0;
+	// let colorIndex = 1;
 
-	for(let j=0; j<collection.length; j++){
-		//multiples of 6, making divs
-		if(j%6===0){
-			const line = document.createElement('div');
-			let leftValue = colorIndex*10;
-			line.style.left = leftValue+'vw'
+	// for(let j=0; j<collection.length; j++){
+	// 	//multiples of 6, making divs
+	// 	if(j%6===0){
+	// 		const line = document.createElement('div');
+	// 		let leftValue = colorIndex*10;
+	// 		line.style.left = leftValue+'vw'
 
-			//vertical vs horizontal
-			if(vert===true){
-				line.style.height = '50vh';
-				line.style.width = '70px';
-			}else{
-				line.style.height = '70px';
-				line.style.width = '100%';
-				line.style.top= '50vh';
-			}
+	// 		//vertical vs horizontal
+	// 		if(vert===true){
+	// 			line.style.height = '50vh';
+	// 			line.style.width = '70px';
+	// 		}else{
+	// 			line.style.height = '70px';
+	// 			line.style.width = '100%';
+	// 			line.style.top= '50vh';
+	// 		}
 
-			line.classList.add(colorArray[colorIndex]);
+	// 		line.classList.add(colorArray[colorIndex]);
 			
-			if(colorIndex<colorArray.length){
-				colorIndex++;
-			}
-			console.log(line);
-		}
-		//switch between vertical and horizontal
-		vert=!vert;
+	// 		if(colorIndex<colorArray.length){
+	// 			colorIndex++;
+	// 		}
+	// 		console.log(line);
+	// 	}
+	// 	//switch between vertical and horizontal
+	// 	vert=!vert;
 		
-	}
+	// }
 
 	// Loop through each item in the collection array
 	collection.forEach(item => {
 
-		
-		
-		
 		const dot = document.createElement('div');
 		dot.classList.add("dot");
 		parentList[i].append(dot);
 
 
-		if(parentList[i].innerHTML==='<div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>'){
+		if(parentList[i].innerHTML==='<div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>'){
 			if(parentList.length-1>i){
 				i++
 			}	
