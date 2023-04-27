@@ -1,119 +1,215 @@
-// // Function to render your items
-// const renderItems = (collection) => {
-// 	// The `ul` where the items will be inserted
-// 	const collectionList = document.getElementById('collection')
+const color = [];
+const red = [];
+const orange = [];
+const yellow = [];
+const darkGreen = [];
+const green = [];
+const blue = [];
+const darkBlue = [];
+const purple = [];
 
-// 	// Loop through each item in the collection array
-// 	collection.forEach(item => {
-
-// 		const listItem = document.createElement('li') // Make the `li`
-
-
-// 		// This can get annoying, so we can use “template literals” instead
-// 		const itemDetails =
-// 			`
-// 				<p>Artist: ${item.Artist}</p>
-// 				<p>Title: ${item.Title}</p>
-// 				<p>Station: ${item.Station}</p>
-// 				<p>Line: ${item.Line}</p>
-// 				<p>Year: ${item.Year}</p>
-// 			`
-// 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
-
-// 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
-// 	})
-
-// }
+const range1 = [];
+const range2 = [];
+const range3 = [];
+const range4 = [];
+const range5 = [];
+const range6 = [];
+const range7 = [];
+const range8 = [];
 
 
-// // Fetch gets your JSON file…
-// fetch('assets/collection.json')
-// 	.then(response => response.json())
-// 	.then(collection => {
-// 		// And passes the data to the function, above!
-// 		renderItems(collection) // In reverse order
-// 	})
+var buttonStage = "LINE";
+var dataColor =[]
+var dataRange = []
+// var data = [{
+// 	values: [red.length, orange.length, yellow.length, darkGreen.length, green.length, blue.length, darkBlue.length, purple.length],
+// 	labels: ['IRT East Side Line', 'IND 6th Avenue Line', 'BMT Broadway Line', 'IRT West Side Line', 'IND Crosstown Line', 'IND 8th Avenue Line', 'BMT Nassau Street-Jamaica Line', 'IRT Flushing Line'],
+// 	type: 'pie'
+// }];
+var layout = {
+	height: 600,
+	width: 700
+};
+//fill all of these ranges
 
-	// Your data URL
-const url = 'assets/collection.json'
+const filterItemsbyLine = (collection) => {
+	collection.forEach(item => {
+		// console.log(item.Year)
 
-const graph = document.querySelector('#graph') // Get out graph element (`const`, does not change)
-const dropdown = document.querySelector('#shift') // Get the dropdown menu
+		// if its red
+		if (item.Line == "IRT East Side Line") {
+			item.color = "red";
+			red.push(item);
+		}
+		if (item.Line == "IND 6th Avenue Line") {
+			item.color = "orange";
+			orange.push(item);
+		}
+		if (item.Line == "BMT Broadway Line") {
+			item.color = "yellow";
+			yellow.push(item);
+		}
+		if (item.Line == "IRT West Side Line") {
+			item.color = "darkGreen";
+			darkGreen.push(item);
+		}
+		if (item.Line == "IND Crosstown Line") {
+			item.color = "green";
+			green.push(item);
+		}
+		if (item.Line == "IND 8th Avenue Line") {
+			item.color = "blue";
+			blue.push(item);
+		}
+		if (item.Line == "BMT Nassau Street-Jamaica Line") {
+			item.color = "darkBlue";
+			darkBlue.push(item);
+		}
+		if (item.Line == "IRT Flushing Line") {
+			item.color = "purple";
+			purple.push(item);
+		}
+		var dataColor = [{
+			values: [red.length, orange.length, yellow.length, darkGreen.length, green.length, blue.length, darkBlue.length, purple.length],
+			labels: ['IRT East Side Line', 'IND 6th Avenue Line', 'BMT Broadway Line', 'IRT West Side Line' , 'IND Crosstown Line' , 'IND 8th Avenue Line' , 'BMT Nassau Street-Jamaica Line' , 'IRT Flushing Line'],
+			type: 'pie'
+		  }];
+		  Plotly.newPlot('myDiv', dataColor, layout);
 
+		// console.log(red)
+		// var dataColor = [{
+		// 	values: [red.length, orange.length, yellow.length, darkGreen.length, green.length, blue.length, darkBlue.length, purple.length],
+		// 	labels: ['IRT East Side Line', 'IND 6th Avenue Line', 'BMT Broadway Line', 'IRT West Side Line', 'IND Crosstown Line', 'IND 8th Avenue Line', 'BMT Nassau Street-Jamaica Line', 'IRT Flushing Line'],
+		// 	type: 'pie'
+		// }];
+		
 
+	}
+	)
+}
 
-// Do something with the data!
-const parseData = (data) => {
-	// Set up variables for the counts
-	let grayCount = 0 // These are `let` because they will change
-	let cinnamonCount = 0
-	let blackCount = 0
-	let undefinedCount = 0
+const filterbyYear = (collection) => {
+	collection.forEach(item => {
+		// console.log(item.Year)
+		if (item.Year = 1980) {
+			item.range = "range1";
+			range1.push(item);
+			
+		}
+		if (item.Year <= 1990 && item.Year > 1986) {
+			item.range = "range2";
+			range2.push(item);
+		}
+		if (item.Year <= 1995 && item.Year > 1991) {
+			item.range = "range3";
+			range3.push(item);
+		}
+		if (item.Year <= 2000 && item.Year > 1996) {
+			item.range = "range4";
+			range4.push(item);
+		}
+		if (item.Year <= 2005 && item.Year > 2001) {
+			item.range = "range5";
+			range5.push(item);
+		}
+		if (item.Year <= 2010 && item.Year > 2006) {
+			item.range = "range5";
+			range6.push(item);
+		}
+		if (item.Year <= 2015 && item.Year > 2011) {
+			item.range = "range7";
+			range7.push(item);
+		}
+		if (item.Year <= 2020 && item.Year > 2016) {
+			item.range = "range8";
+			range8.push(item);
+		}
+		
 
-	// Go through each item in the object
-	data.forEach(squirrel => {
-		if (squirrel.primary_fur_color == 'Gray') grayCount = grayCount + 1 // Increment the counter
-		// if (squirrel.primary_fur_color == 'Gray') grayCount++ // Shorthand for incrementing
-		else if (squirrel.primary_fur_color == 'Cinnamon') cinnamonCount = cinnamonCount + 1
-		else if (squirrel.primary_fur_color == 'Black') blackCount = blackCount + 1
-		else undefinedCount = undefinedCount + 1
+	})
+	// var dataRange = [{
+	// 	values: [range1.length, range2.length, range3.length, range4.length, range5.length, range6.length, range7.length, range8.length],
+	// 	labels: ['1980-1985', '1986-1990', '1991-1995', '1996-2000', '2001-2005', '2006-2010', '2011-2015', '2016-2020'],
+	// 	type: 'pie'
+	// }];
+	// console.log(item)
+	
+}
+
+const button = document.getElementById("toggle-button");
+// let "red" = red.length
+const plotlyDiv = document.getElementById('myDiv')
+
+// Fetch gets your JSON file…
+fetch('assets/collection.json')
+	.then(response => response.json())
+	.then(collection => {
+		filterItemsbyLine(collection);
+
+		// button.addEventListener("click", toggleButton());		//if the button tells line on
+		// if (buttonStage === "LINE") {
+		// 	filterItemsbyLine(collection);
+			
+			
+		// } else if(buttonStage === "YEAR") {
+		// 	//otherwise, do this
+		// 	filterbyYear(collection)
+
+		// }
+
 	})
 
-	// Some telemetry!
-	console.log('Gray: ' + grayCount)
-	console.log('Cinnamon: ' + cinnamonCount)
-	console.log('Black: ' + blackCount)
-	console.log('Undefined: ' + undefinedCount)
 
-	// Add CSS variables (custom properties) on the graph, with the counts
-	graph.style.setProperty('--gray', grayCount)
-	graph.style.setProperty('--cinnamon', cinnamonCount)
-	graph.style.setProperty('--black', blackCount)
-	graph.style.setProperty('--undefined', undefinedCount)
+function toggleButton() {
+	// var button = document.getElementById("toggle-button");
+	// toggle 1: 
+	if (button.value == "ON") {
+		// filterItemsbyLine = (collection)
+		plotlyDiv.innerHTML =''
+			var dataColor = [{
+				values: [red.length, orange.length, yellow.length, darkGreen.length, green.length, blue.length, darkBlue.length, purple.length],
+				labels: ['IRT East Side Line', 'IND 6th Avenue Line', 'BMT Broadway Line', 'IRT West Side Line' , 'IND Crosstown Line' , 'IND 8th Avenue Line' , 'BMT Nassau Street-Jamaica Line' , 'IRT Flushing Line'],
+				type: 'pie'
+			  }];
+		button.value = "OFF";
+		button.innerHTML = "Line";
+		buttonStage = "LINE";
+		// console.log(buttonStage)
+		Plotly.newPlot('myDiv', dataColor, layout);
+	}
+	// toggle 2: 
+
+	else {
+		// filterItemsbyYear = (collection)
+		plotlyDiv.innerHTML =''
+
+			var dataRange = [{
+				values: [range1.length, range2.length, range3.length, range4.length, range5.length, range6.length, range7.length, range8.length ],
+				labels: ['1980-1985', '1986-1990', '1991-1995', '1996-2000' , '2001-2005' , '2006-2010' , '2011-2015' , '2016-2020'],
+				type: 'pie'
+			  }];
+		button.value = "ON";
+		button.innerHTML = "Year";
+		buttonStage = "YEAR";
+		// console.log(buttonStage);
+		Plotly.newPlot('myDiv', dataRange, layout);
+	}
+
+	// filterItemsbyLine(collection)
+	// // console.log(red)
+	// var data = [{
+	// 	values: [red.length, orange.length, yellow.length, darkGreen.length, green.length, blue.length, darkBlue.length, purple.length],
+	// 	labels: ['IRT East Side Line', 'IND 6th Avenue Line', 'BMT Broadway Line', 'IRT West Side Line' , 'IND Crosstown Line' , 'IND 8th Avenue Line' , 'BMT Nassau Street-Jamaica Line' , 'IRT Flushing Line'],
+	// 	type: 'pie'
+	//   }];
+
+	//   var layout = {
+	// 	height: 600,
+	// 	width: 700
+	//   };
+
+	//   Plotly.newPlot('myDiv', data, layout);
+	// Plotly.newPlot('myDiv', data, layout);
 }
 
 
-
-// Watch for any change on the dropdown
-dropdown.oninput = () => {
-	// Filter the locally-copied data
-	const dataAm = localData.filter(squirrel => squirrel.shift == 'AM')
-	const dataPm = localData.filter(squirrel => squirrel.shift == 'PM')
-
-	// Parse either set depending on the dropdown value
-	if (dropdown.value == 'Morning') parseData(dataAm)
-	else if (dropdown.value == 'Afternoon') parseData(dataPm)
-	else parseData(localData) // Send the whole, unfiltered dataset
-}
-
-// This got pretty complicated, but it should make the API less annoying! 🤞
-caches.open('cachedData') // Set up a cache for our data
-	.then(cache => {
-		// See if there is already a cached response for our dataset
-		cache.match(url)
-			.then(response => response.json())
-			.then(data => {
-				console.log('Loading data from cache…')
-				localData = data // Save the data out to our local, global variable
-				parseData(localData) // And parse it!
-			})
-			// If there is not a cache, let’s get and make one
-			.catch(error => {
-				fetch(url + '?$select=count(*)') // First, go get the total number of rows (entries)
-					.then(response => response.json())
-					.then(data => {
-						let rowCount = data[0].count // Get the count out of this response
-						// Use the count as the limit for the API request, to get the full dataset
-						fetch(url + '?$limit=' + rowCount)
-							.then(response => {
-								cache.put(url, response.clone()) // Cache a copy for next time
-								return response.json()
-							})
-							.then(data => {
-								console.log('Loading data from API…')
-								localData = data // Same as above!
-								parseData(localData)
-							})
-					})
-			})
-	})
