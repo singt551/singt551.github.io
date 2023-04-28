@@ -92,6 +92,14 @@ section{
     width: 15vw;
 }
 
+.info-card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .red{
     position: absolute;
     top: 0;
