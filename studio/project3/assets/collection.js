@@ -34,6 +34,21 @@ const renderItems = (collection) => {
 		}
 		infoCard.style.top = `${evt.pageY + 20}px`
 	}
+
+	let soundIsPlaying = true;
+
+	const button = document.getElementById("toggle-sound");
+	const sound = document.getElementById("sound");
+
+	button.addEventListener("click", function() {
+  	if (soundIsPlaying) {
+    sound.pause();
+  	} else {
+    sound.play();
+  	}
+  	soundIsPlaying = !soundIsPlaying;
+	});
+
 	
 	// Loop through each item in the collection array
 	// collection.forEach(item => {

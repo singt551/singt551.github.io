@@ -64,13 +64,25 @@ h6{
     color: white;
     font-size: 150%;
     text-align: center;
-    top: -20vh;
+    top: -5vh;
     padding: 10vh;
-    font-family: "malaga", serif;
+    font-family: Helvetica;
     font-weight: 400;
     font-style: normal;
     position: relative;
     z-index: 2;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    background-color: #eba1d5;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 600;
 }
 
 section{
@@ -81,22 +93,31 @@ section{
 .info-card {
     position: absolute;
     z-index: 5;
-    background-color: #F1E0E0;
-    color: black;
-    font-family: "malaga", serif;
+    /* background-color: #F1E0E0; */
+    /* color: rgb(204, 192, 192); */
+    font-family: Helvetica;
     font-weight: 400;
+    font-size: 2vh;
     font-style: normal;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px 2px #aba6a6;
-    width: 15vw;
+    /* line-height: 5px; */
+    padding: 25px;
+    /* border-radius: 1000px; */
+    background: radial-gradient(
+    ellipse at center,
+    rgba(0, 128, 172, 1) 0%,
+    rgba(0, 128, 172, 1) 70%,
+    rgba(0, 128, 172, 0) 70.3%
+  );
+    text-align: center;
+    /* box-shadow: 5px 5px 10px 2px #aba6a6; */
+    width: 30vw;
 }
 
 .info-card img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -147,10 +168,10 @@ section{
 
 .blue{
     width: 100%; 
-    height: 70px;
+    height: 120px;
     background: #00ADD0;  
     position: absolute;
-    top: 85vh;
+    top: 75vh;
     left: 0;
 }
 
@@ -319,12 +340,10 @@ section{
     width: 100%;
 }
 
-
 ul{
     flex-direction: row;
     margin-top: 48px;
-    color:rgb(204, 192, 192);
-    border-radius: 6px;
+    color:white;
     list-style-type: none;
 }
 
@@ -333,5 +352,85 @@ li{
 }
 
 p{
-    color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 500px){
+	#first{
+		font-size: 700%;
+        line-height: 15vh;
+        margin-top: 8vh;
+	}
+    #last{
+		font-size: 700%;
+        line-height: 15vh;
+        margin-top: -10vh;
+	}
+    h6{
+        font-size: 80%;
+        padding-top: 2vh 2vw;
+    }
+    /* .yellow2{
+        right: 16vw;
+    } */
+}
+
+@media screen and (min-width: 600px){
+    #first{
+		font-size: 800%;
+        line-height: 15vh;
+        margin-top: 8vh;
+	}
+    #last{
+		font-size: 800%;
+        line-height: 15vh;
+        margin-top: -10vh;
+	}
+    h6{
+        font-size: 93%;
+        padding: 14vh 2vw;
+    }
+    /* .yellow2{
+        right: 18vw;
+    } */
+}
+
+
+@media screen and (min-width: 800px){
+    #first{
+		font-size: 1000%;
+        margin-top: 8vh;
+	}
+    #last{
+		font-size: 1000%;
+        line-height: 18vh;
+        margin-top: -10vh;
+	}
+    h6{
+        font-size: 110%;
+        padding: 5vh 2vw;
+    }
+    /* .yellow2{
+        right: 21vw;
+    } */
+}
+
+@media screen and (min-width: 1200px){
+    #first{
+		font-size: 1200%;
+        margin-top: 8vh;
+	}
+    #last{
+		font-size: 1200%;
+        line-height: 18vh;
+        margin-top: -10vh;
+	}
+    h6{
+        font-size: 130%;
+        padding: 3vh 2vw;
+    }
+    /* .yellow2{
+        right: 24vw;
+    } */
 }
