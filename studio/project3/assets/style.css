@@ -93,7 +93,7 @@ section{
 .info-card {
     position: absolute;
     z-index: 5;
-    background-color: #b4ceff;
+    background-color: #96a8ca;
     font-family: Helvetica;
     font-weight: 400;
     font-size: 2vh;
@@ -101,7 +101,7 @@ section{
     padding: 25px;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 5px 5px 10px 2px #aba6a6;
+    box-shadow: 5px 5px 10px 2px #b0bed8;
     width: 25vw;
 }
 
