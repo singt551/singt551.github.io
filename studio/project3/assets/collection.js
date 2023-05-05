@@ -17,10 +17,10 @@ const renderItems = (collection) => {
 		infoCard.style.display = "block";
 
 		infoCard.innerHTML = `
-			<p>Artist: ${randomEntry.Artist}</p>
-			<p>Title: ${randomEntry.Title}</p>
 			<p>Station: ${randomEntry.Station}</p>
 			<p>Line: ${randomEntry.Line}</p>
+			<p class="other">Title: ${randomEntry.Title}</p>
+			<p>Artist: ${randomEntry.Artist}</p>
 			<p>Year: ${randomEntry.Year}</p>
 		`
 		img = document.createElement("img")
@@ -101,6 +101,8 @@ const renderItems = (collection) => {
 		}
 	}
 	// )
+
+
 // }
 
 

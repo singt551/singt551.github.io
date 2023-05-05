@@ -103,6 +103,7 @@ section{
     text-align: center;
     box-shadow: 5px 5px 10px 2px #b0bed8;
     width: 25vw;
+    aspect-ratio: 1/1;
 }
 
 .info-card img{
@@ -345,6 +346,10 @@ li{
 
 p{
     color: white;
+    font-weight: 300;
+}
+
+.other{
     font-weight: 600;
 }
 
